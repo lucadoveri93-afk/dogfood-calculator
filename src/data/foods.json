@@ -1,0 +1,449 @@
+{
+  "version": 2,
+  "updatedAt": "2026-07-11",
+  "brands": [
+    { "slug": "royal-canin", "name": "Royal Canin", "description": "Nutrizione su misura per taglia, età e razza." },
+    { "slug": "monge", "name": "Monge", "description": "Superpremium Made in Italy." },
+    { "slug": "farmina", "name": "Farmina", "description": "N&D — The Nutrition System for Carnivores." },
+    { "slug": "natural-trainer", "name": "Natural Trainer", "description": "Ricette con ingredienti naturali, Nova Foods." },
+    { "slug": "purina-pro-plan", "name": "Purina Pro Plan", "description": "Nutrizione avanzata con tecnologie OPTI." },
+    { "slug": "hills", "name": "Hill's", "description": "Science Plan — nutrizione basata sulla scienza." }
+  ],
+  "products": [
+    {
+      "id": "rc-maxi-adult",
+      "slug": "maxi-adult",
+      "brandSlug": "royal-canin",
+      "name": "Maxi Adult",
+      "line": "Size Health Nutrition",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [26, 44],
+      "kcalPerKg": 3970,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 26, "grams": { "low": 276, "medium": 319, "high": 363 } },
+            { "weightKg": 28, "grams": { "low": 291, "medium": 337, "high": 383 } },
+            { "weightKg": 30, "grams": { "low": 307, "medium": 355, "high": 404 } },
+            { "weightKg": 32, "grams": { "low": 322, "medium": 373, "high": 424 } },
+            { "weightKg": 34, "grams": { "low": 337, "medium": 390, "high": 443 } },
+            { "weightKg": 36, "grams": { "low": 352, "medium": 407, "high": 463 } },
+            { "weightKg": 38, "grams": { "low": 366, "medium": 424, "high": 482 } },
+            { "weightKg": 40, "grams": { "low": 381, "medium": 441, "high": 501 } },
+            { "weightKg": 42, "grams": { "low": 395, "medium": 457, "high": 519 } },
+            { "weightKg": 44, "grams": { "low": 405, "medium": 473, "high": 538 } }
+          ]
+        }
+      ],
+      "notes": ["Per cani adulti di taglia grande (26–44 kg), da 15 mesi a 5 anni."],
+      "sourceUrl": "https://www.royalcanin.com/mt/dogs/products/retail-products/maxi-adult-3007",
+      "sourceDate": "2026-07-10"
+    },
+    {
+      "id": "rc-medium-adult",
+      "slug": "medium-adult",
+      "brandSlug": "royal-canin",
+      "name": "Medium Adult",
+      "line": "Size Health Nutrition",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [11, 25],
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 11, "grams": { "low": 149, "medium": 173, "high": 196 } },
+            { "weightKg": 12, "grams": { "low": 159, "medium": 185, "high": 210 } },
+            { "weightKg": 14, "grams": { "low": 179, "medium": 207, "high": 235 } },
+            { "weightKg": 16, "grams": { "low": 198, "medium": 229, "high": 260 } },
+            { "weightKg": 18, "grams": { "low": 216, "medium": 250, "high": 284 } },
+            { "weightKg": 20, "grams": { "low": 234, "medium": 271, "high": 308 } },
+            { "weightKg": 22, "grams": { "low": 251, "medium": 291, "high": 330 } },
+            { "weightKg": 24, "grams": { "low": 268, "medium": 310, "high": 353 } },
+            { "weightKg": 25, "grams": { "low": 276, "medium": 320, "high": 364 } }
+          ]
+        }
+      ],
+      "notes": ["Per cani adulti di taglia media (11–25 kg), da 12 mesi a 7 anni."],
+      "sourceUrl": "https://www.royalcanin.com/mt/dogs/products/retail-products/medium-adult-3004",
+      "sourceDate": "2026-07-10"
+    },
+    {
+      "id": "rc-mini-adult-8plus",
+      "slug": "mini-adult-8-plus",
+      "brandSlug": "royal-canin",
+      "name": "Mini Adult 8+",
+      "line": "Size Health Nutrition",
+      "lifeStages": ["senior", "adult"],
+      "targetWeightKg": [2, 10],
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "senior",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 40, "medium": 47, "high": 53 } },
+            { "weightKg": 3, "grams": { "low": 54, "medium": 63, "high": 72 } },
+            { "weightKg": 4, "grams": { "low": 68, "medium": 78, "high": 89 } },
+            { "weightKg": 5, "grams": { "low": 80, "medium": 93, "high": 105 } },
+            { "weightKg": 6, "grams": { "low": 92, "medium": 106, "high": 121 } },
+            { "weightKg": 7, "grams": { "low": 103, "medium": 119, "high": 135 } },
+            { "weightKg": 8, "grams": { "low": 114, "medium": 132, "high": 150 } },
+            { "weightKg": 9, "grams": { "low": 124, "medium": 144, "high": 163 } },
+            { "weightKg": 10, "grams": { "low": 134, "medium": 156, "high": 177 } }
+          ]
+        }
+      ],
+      "notes": ["Per cani maturi di taglia piccola (fino a 10 kg), oltre 8 anni. La tabella è già calibrata per soggetti maturi."],
+      "sourceUrl": "https://www.royalcanin.com/mt/dogs/products/retail-products/mini-adult-3002",
+      "sourceDate": "2026-07-10"
+    },
+    {
+      "id": "rc-maxi-puppy",
+      "slug": "maxi-puppy",
+      "brandSlug": "royal-canin",
+      "name": "Maxi Puppy",
+      "line": "Size Health Nutrition",
+      "lifeStages": ["puppy"],
+      "targetWeightKg": [26, 44],
+      "tables": [
+        {
+          "kind": "puppyByAge",
+          "lifeStage": "puppy",
+          "rows": [
+            { "ageMonths": 2, "byAdultWeight": [ { "adultWeightKg": 26, "grams": 264 }, { "adultWeightKg": 30, "grams": 273 }, { "adultWeightKg": 35, "grams": 285 }, { "adultWeightKg": 40, "grams": 297 }, { "adultWeightKg": 44, "grams": 307 } ] },
+            { "ageMonths": 3, "byAdultWeight": [ { "adultWeightKg": 26, "grams": 326 }, { "adultWeightKg": 30, "grams": 343 }, { "adultWeightKg": 35, "grams": 364 }, { "adultWeightKg": 40, "grams": 386 }, { "adultWeightKg": 44, "grams": 403 } ] },
+            { "ageMonths": 4, "byAdultWeight": [ { "adultWeightKg": 26, "grams": 354 }, { "adultWeightKg": 30, "grams": 374 }, { "adultWeightKg": 35, "grams": 399 }, { "adultWeightKg": 40, "grams": 424 }, { "adultWeightKg": 44, "grams": 444 } ] },
+            { "ageMonths": 5, "byAdultWeight": [ { "adultWeightKg": 26, "grams": 380 }, { "adultWeightKg": 30, "grams": 413 }, { "adultWeightKg": 35, "grams": 453 }, { "adultWeightKg": 40, "grams": 494 }, { "adultWeightKg": 44, "grams": 526 } ] },
+            { "ageMonths": 6, "byAdultWeight": [ { "adultWeightKg": 26, "grams": 404 }, { "adultWeightKg": 30, "grams": 449 }, { "adultWeightKg": 35, "grams": 504 }, { "adultWeightKg": 40, "grams": 556 }, { "adultWeightKg": 44, "grams": 597 } ] },
+            { "ageMonths": 8, "byAdultWeight": [ { "adultWeightKg": 26, "grams": 374 }, { "adultWeightKg": 30, "grams": 418 }, { "adultWeightKg": 35, "grams": 470 }, { "adultWeightKg": 40, "grams": 523 }, { "adultWeightKg": 44, "grams": 595 } ] },
+            { "ageMonths": 10, "byAdultWeight": [ { "adultWeightKg": 26, "grams": 318 }, { "adultWeightKg": 30, "grams": 355 }, { "adultWeightKg": 35, "grams": 401 }, { "adultWeightKg": 40, "grams": 457 }, { "adultWeightKg": 44, "grams": 519 } ] },
+            { "ageMonths": 12, "byAdultWeight": [ { "adultWeightKg": 26, "grams": 287 }, { "adultWeightKg": 30, "grams": 320 }, { "adultWeightKg": 35, "grams": 362 }, { "adultWeightKg": 40, "grams": 401 }, { "adultWeightKg": 44, "grams": 432 } ] },
+            { "ageMonths": 14, "byAdultWeight": [ { "adultWeightKg": 26, "grams": 285 }, { "adultWeightKg": 30, "grams": 318 }, { "adultWeightKg": 35, "grams": 357 }, { "adultWeightKg": 40, "grams": 394 }, { "adultWeightKg": 44, "grams": 425 } ] },
+            { "ageMonths": 15, "byAdultWeight": [ { "adultWeightKg": 26, "grams": 285 }, { "adultWeightKg": 30, "grams": 318 }, { "adultWeightKg": 35, "grams": 357 }, { "adultWeightKg": 40, "grams": 394 }, { "adultWeightKg": 44, "grams": 425 } ] }
+          ]
+        }
+      ],
+      "notes": [
+        "Per cuccioli di taglia grande (peso adulto previsto 26–44 kg), fino a 15 mesi.",
+        "La tabella puppy usa il peso previsto da adulto, non il peso attuale del cucciolo."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/mt/dogs/products/retail-products/maxi-puppy-3006",
+      "sourceDate": "2026-07-10"
+    },
+    {
+      "id": "monge-medium-adult-pollo",
+      "slug": "medium-adult-pollo",
+      "brandSlug": "monge",
+      "name": "Natural Superpremium Medium Adult Pollo",
+      "line": "Daily Line",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [12, 30],
+      "kcalPerKg": 4000,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 12, "grams": { "low": 192, "medium": 212, "high": 234 } },
+            { "weightKg": 14, "grams": { "low": 218, "medium": 239, "high": 265 } },
+            { "weightKg": 16, "grams": { "low": 239, "medium": 265, "high": 291 } },
+            { "weightKg": 18, "grams": { "low": 259, "medium": 286, "high": 317 } },
+            { "weightKg": 20, "grams": { "low": 280, "medium": 312, "high": 343 } },
+            { "weightKg": 22, "grams": { "low": 301, "medium": 332, "high": 368 } },
+            { "weightKg": 24, "grams": { "low": 322, "medium": 353, "high": 389 } },
+            { "weightKg": 25, "grams": { "low": 327, "medium": 364, "high": 400 } },
+            { "weightKg": 30, "grams": { "low": 375, "medium": 417, "high": 458 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Le tre colonne ufficiali Monge (cane sovrappeso / normopeso / sottopeso) sono usate rispettivamente per attività bassa / normale / alta: ogni valore è del produttore.",
+        "Formula soy free, primo ingrediente pollo."
+      ],
+      "sourceUrl": "https://www.monge.it/wp-content/uploads/2016/04/monge_cane_secco_medium_adult_ricco_di_pollo_ITA.pdf",
+      "sourceDate": "2026-07-10"
+    },
+    {
+      "id": "monge-medium-puppy-junior-pollo",
+      "slug": "medium-puppy-junior-pollo",
+      "brandSlug": "monge",
+      "name": "Natural Superpremium Medium Puppy & Junior Pollo",
+      "line": "Daily Line",
+      "lifeStages": ["puppy"],
+      "targetWeightKg": [11, 30],
+      "kcalPerKg": 4200,
+      "tables": [
+        {
+          "kind": "puppyByAge",
+          "lifeStage": "puppy",
+          "rows": [
+            { "ageMonths": 2, "byAdultWeight": [ { "adultWeightKg": 11, "grams": 156 }, { "adultWeightKg": 13, "grams": 179 }, { "adultWeightKg": 15, "grams": 205 }, { "adultWeightKg": 17, "grams": 227 }, { "adultWeightKg": 19, "grams": 241 }, { "adultWeightKg": 21, "grams": 251 }, { "adultWeightKg": 23, "grams": 266 }, { "adultWeightKg": 25, "grams": 276 }, { "adultWeightKg": 30, "grams": 314 } ] },
+            { "ageMonths": 3, "byAdultWeight": [ { "adultWeightKg": 11, "grams": 183 }, { "adultWeightKg": 13, "grams": 209 }, { "adultWeightKg": 15, "grams": 244 }, { "adultWeightKg": 17, "grams": 270 }, { "adultWeightKg": 19, "grams": 285 }, { "adultWeightKg": 21, "grams": 302 }, { "adultWeightKg": 23, "grams": 320 }, { "adultWeightKg": 25, "grams": 339 }, { "adultWeightKg": 30, "grams": 385 } ] },
+            { "ageMonths": 5, "byAdultWeight": [ { "adultWeightKg": 11, "grams": 193 }, { "adultWeightKg": 13, "grams": 221 }, { "adultWeightKg": 15, "grams": 261 }, { "adultWeightKg": 17, "grams": 289 }, { "adultWeightKg": 19, "grams": 307 }, { "adultWeightKg": 21, "grams": 322 }, { "adultWeightKg": 23, "grams": 341 }, { "adultWeightKg": 25, "grams": 365 }, { "adultWeightKg": 30, "grams": 414 } ] },
+            { "ageMonths": 6, "byAdultWeight": [ { "adultWeightKg": 11, "grams": 193 }, { "adultWeightKg": 13, "grams": 221 }, { "adultWeightKg": 15, "grams": 255 }, { "adultWeightKg": 17, "grams": 282 }, { "adultWeightKg": 19, "grams": 312 }, { "adultWeightKg": 21, "grams": 332 }, { "adultWeightKg": 23, "grams": 352 }, { "adultWeightKg": 25, "grams": 376 }, { "adultWeightKg": 30, "grams": 426 } ] },
+            { "ageMonths": 8, "byAdultWeight": [ { "adultWeightKg": 11, "grams": 187 }, { "adultWeightKg": 13, "grams": 214 }, { "adultWeightKg": 15, "grams": 250 }, { "adultWeightKg": 17, "grams": 277 }, { "adultWeightKg": 19, "grams": 302 }, { "adultWeightKg": 21, "grams": 332 }, { "adultWeightKg": 23, "grams": 341 }, { "adultWeightKg": 25, "grams": 370 }, { "adultWeightKg": 30, "grams": 420 } ] },
+            { "ageMonths": 10, "byAdultWeight": [ { "adultWeightKg": 11, "grams": 183 }, { "adultWeightKg": 13, "grams": 209 }, { "adultWeightKg": 15, "grams": 255 }, { "adultWeightKg": 17, "grams": 282 }, { "adultWeightKg": 19, "grams": 296 }, { "adultWeightKg": 21, "grams": 317 }, { "adultWeightKg": 23, "grams": 336 }, { "adultWeightKg": 25, "grams": 360 }, { "adultWeightKg": 30, "grams": 408 } ] },
+            { "ageMonths": 12, "byAdultWeight": [ { "adultWeightKg": 11, "grams": 192 }, { "adultWeightKg": 13, "grams": 218 }, { "adultWeightKg": 15, "grams": 239 }, { "adultWeightKg": 17, "grams": 282 }, { "adultWeightKg": 19, "grams": 291 }, { "adultWeightKg": 21, "grams": 312 }, { "adultWeightKg": 23, "grams": 330 }, { "adultWeightKg": 25, "grams": 355 }, { "adultWeightKg": 30, "grams": 403 } ] }
+          ]
+        }
+      ],
+      "notes": [
+        "Per cuccioli di taglia media; la tabella usa il peso previsto da adulto.",
+        "Con condroitina, glucosamina, calcio e fosforo per lo sviluppo di ossa e articolazioni."
+      ],
+      "sourceUrl": "https://www.monge.it/wp-content/uploads/2016/04/monge_cane_secco_medium_puppy_e_junior_ricco_di_pollo_ITA.pdf",
+      "sourceDate": "2026-07-10"
+    },
+    {
+      "id": "farmina-nd-ag-selection-adult-medium-maxi",
+      "slug": "nd-ancestral-grain-selection-adult-medium-maxi",
+      "brandSlug": "farmina",
+      "name": "N&D Ancestral Grain Selection Adult Medium & Maxi",
+      "line": "N&D Ancestral Grain",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [10, 70],
+      "kcalPerKg": 3885,
+      "tables": [
+        {
+          "kind": "range",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 10, "gramsMin": 100, "gramsMax": 190 },
+            { "weightKg": 15, "gramsMin": 135, "gramsMax": 255 },
+            { "weightKg": 20, "gramsMin": 170, "gramsMax": 315 },
+            { "weightKg": 25, "gramsMin": 200, "gramsMax": 375 },
+            { "weightKg": 30, "gramsMin": 230, "gramsMax": 425 },
+            { "weightKg": 35, "gramsMin": 260, "gramsMax": 480 },
+            { "weightKg": 40, "gramsMin": 285, "gramsMax": 530 },
+            { "weightKg": 50, "gramsMin": 340, "gramsMax": 630 },
+            { "weightKg": 60, "gramsMin": 390, "gramsMax": 720 },
+            { "weightKg": 70, "gramsMin": 435, "gramsMax": 800 }
+          ]
+        }
+      ],
+      "notes": [
+        "Ricetta pollo, farro, avena e melograno.",
+        "Farmina indica un intervallo min–max: il calcolo parte dal punto medio e lo adatta ai modificatori."
+      ],
+      "sourceUrl": "https://www.farmina.com/fotoprodotti/dosi/631_11_nd-ancestral-grain-canine-selection.pdf",
+      "sourceDate": "2026-07-10"
+    },
+    {
+      "id": "trainer-medium-adult-pollo",
+      "slug": "daily-nutrition-medium-adult-pollo",
+      "brandSlug": "natural-trainer",
+      "name": "Daily Nutrition Medium Adult con Pollo Fresco",
+      "line": "Daily Nutrition",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [11, 30],
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 11, "grams": { "low": 150, "medium": 180, "high": 235 } },
+            { "weightKg": 13, "grams": { "low": 170, "medium": 205, "high": 265 } },
+            { "weightKg": 15, "grams": { "low": 185, "medium": 225, "high": 295 } },
+            { "weightKg": 17, "grams": { "low": 205, "medium": 250, "high": 325 } },
+            { "weightKg": 20, "grams": { "low": 230, "medium": 280, "high": 365 } },
+            { "weightKg": 23, "grams": { "low": 260, "medium": 310, "high": 405 } },
+            { "weightKg": 25, "grams": { "low": 275, "medium": 330, "high": 435 } },
+            { "weightKg": 27, "grams": { "low": 290, "medium": 350, "high": 460 } },
+            { "weightKg": 30, "grams": { "low": 315, "medium": 380, "high": 495 } }
+          ]
+        }
+      ],
+      "notes": ["Per cani adulti di taglia media (11–30 kg), oltre 12 mesi. Con macroalghe e spirulina."],
+      "sourceUrl": "https://www.naturaltrainer.com/row/en/dog/daily-nutrition-medium-adult-with-fresh-chicken-1000108.html",
+      "sourceDate": "2026-07-10"
+    },
+    {
+      "id": "proplan-medium-adult-optibalance",
+      "slug": "medium-adult-optibalance",
+      "brandSlug": "purina-pro-plan",
+      "name": "Medium Adult OptiBalance Pollo e Riso",
+      "line": "OptiBalance",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [10, 25],
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 1, "grams": { "low": 40, "medium": 43, "high": 45 } },
+            { "weightKg": 5, "grams": { "low": 110, "medium": 118, "high": 125 } },
+            { "weightKg": 10, "grams": { "low": 175, "medium": 190, "high": 205 } },
+            { "weightKg": 15, "grams": { "low": 230, "medium": 248, "high": 265 } },
+            { "weightKg": 20, "grams": { "low": 280, "medium": 300, "high": 320 } },
+            { "weightKg": 25, "grams": { "low": 325, "medium": 350, "high": 375 } },
+            { "weightKg": 35, "grams": { "low": 410, "medium": 440, "high": 470 } },
+            { "weightKg": 45, "grams": { "low": 485, "medium": 520, "high": 555 } },
+            { "weightKg": 60, "grams": { "low": 588, "medium": 632, "high": 675 } },
+            { "weightKg": 70, "grams": { "low": 650, "medium": 698, "high": 745 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Purina pubblica due colonne (attività < 1 ora e 1–3 ore al giorno): 'bassa' e 'alta' sono i valori ufficiali, 'normale' è il punto medio tra le due."
+      ],
+      "sourceUrl": "https://www.purina-proplan.it/cane/alimenti/cibo/benessere/taglia-media-grande",
+      "sourceDate": "2026-07-10"
+    },
+    {
+      "id": "hills-sp-medium-adult-pollo",
+      "slug": "science-plan-medium-adult-pollo",
+      "brandSlug": "hills",
+      "name": "Science Plan Medium Adult con Pollo",
+      "line": "Science Plan",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [11, 25],
+      "tables": [
+        {
+          "kind": "single",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2.5, "grams": 60 },
+            { "weightKg": 5, "grams": 100 },
+            { "weightKg": 7.5, "grams": 135 },
+            { "weightKg": 10, "grams": 170 },
+            { "weightKg": 20, "grams": 285 },
+            { "weightKg": 30, "grams": 385 },
+            { "weightKg": 40, "grams": 480 },
+            { "weightKg": 50, "grams": 565 }
+          ]
+        }
+      ],
+      "notes": [
+        "Per cani adulti 1–6 anni di taglia media.",
+        "Oltre 60 kg Hill's indica 11 g per kg di peso corporeo."
+      ],
+      "sourceUrl": "https://www.hillspet.ae/dog-food/science-plan-adult-medium-chicken-dry",
+      "sourceDate": "2026-07-10"
+    },
+    {
+      "id": "rc-medium-puppy",
+      "slug": "medium-puppy",
+      "brandSlug": "royal-canin",
+      "name": "Medium Puppy",
+      "line": "Size Health Nutrition",
+      "lifeStages": ["puppy"],
+      "targetWeightKg": [11, 25],
+      "tables": [
+        {
+          "kind": "puppyByAge",
+          "lifeStage": "puppy",
+          "rows": [
+            { "ageMonths": 2, "byAdultWeight": [ { "adultWeightKg": 11, "grams": 155 }, { "adultWeightKg": 14, "grams": 184 }, { "adultWeightKg": 18, "grams": 217 }, { "adultWeightKg": 22, "grams": 237 }, { "adultWeightKg": 29, "grams": 244 } ] },
+            { "ageMonths": 3, "byAdultWeight": [ { "adultWeightKg": 11, "grams": 182 }, { "adultWeightKg": 14, "grams": 216 }, { "adultWeightKg": 18, "grams": 259 }, { "adultWeightKg": 22, "grams": 288 }, { "adultWeightKg": 29, "grams": 300 } ] },
+            { "ageMonths": 4, "byAdultWeight": [ { "adultWeightKg": 11, "grams": 194 }, { "adultWeightKg": 14, "grams": 232 }, { "adultWeightKg": 18, "grams": 279 }, { "adultWeightKg": 22, "grams": 311 }, { "adultWeightKg": 29, "grams": 325 } ] },
+            { "ageMonths": 5, "byAdultWeight": [ { "adultWeightKg": 11, "grams": 197 }, { "adultWeightKg": 14, "grams": 236 }, { "adultWeightKg": 18, "grams": 285 }, { "adultWeightKg": 22, "grams": 324 } ] },
+            { "ageMonths": 6, "byAdultWeight": [ { "adultWeightKg": 11, "grams": 197 }, { "adultWeightKg": 14, "grams": 236 }, { "adultWeightKg": 18, "grams": 285 }, { "adultWeightKg": 22, "grams": 332 }, { "adultWeightKg": 29, "grams": 366 } ] },
+            { "ageMonths": 8, "byAdultWeight": [ { "adultWeightKg": 11, "grams": 159 }, { "adultWeightKg": 14, "grams": 204 }, { "adultWeightKg": 18, "grams": 247 }, { "adultWeightKg": 22, "grams": 298 }, { "adultWeightKg": 29, "grams": 330 } ] },
+            { "ageMonths": 10, "byAdultWeight": [ { "adultWeightKg": 11, "grams": 141 }, { "adultWeightKg": 14, "grams": 164 }, { "adultWeightKg": 18, "grams": 205 }, { "adultWeightKg": 22, "grams": 239 }, { "adultWeightKg": 29, "grams": 264 } ] },
+            { "ageMonths": 12, "byAdultWeight": [ { "adultWeightKg": 18, "grams": 202 }, { "adultWeightKg": 22, "grams": 235 }, { "adultWeightKg": 29, "grams": 261 } ] }
+          ]
+        }
+      ],
+      "notes": [
+        "Per cuccioli di taglia media (peso adulto previsto 11–25 kg), da 2 a 12 mesi; poi transizione a Medium Adult.",
+        "La cella ufficiale 5 mesi / 29 kg è stata omessa perché contiene un refuso evidente sul sito del produttore (247 g tra 325 g e 366 g)."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/mt/dogs/products/retail-products/medium-puppy-3003",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-giant-adult",
+      "slug": "giant-adult",
+      "brandSlug": "royal-canin",
+      "name": "Giant Adult",
+      "line": "Size Health Nutrition",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [45, 100],
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 45, "grams": { "low": 394, "medium": 457, "high": 519 } },
+            { "weightKg": 55, "grams": { "low": 459, "medium": 531, "high": 603 } },
+            { "weightKg": 65, "grams": { "low": 520, "medium": 602, "high": 684 } },
+            { "weightKg": 75, "grams": { "low": 579, "medium": 670, "high": 761 } },
+            { "weightKg": 85, "grams": { "low": 636, "medium": 736, "high": 836 } },
+            { "weightKg": 100, "grams": { "low": 718, "medium": 831, "high": 945 } }
+          ]
+        }
+      ],
+      "notes": ["Per cani adulti di taglia gigante (oltre 45 kg), dai 18/24 mesi."],
+      "sourceUrl": "https://www.royalcanin.com/mt/dogs/products/retail-products/giant-adult-3009",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "monge-maxi-adult-pollo",
+      "slug": "maxi-adult-pollo",
+      "brandSlug": "monge",
+      "name": "Natural Superpremium Maxi Adult Pollo",
+      "line": "Daily Line",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [32, 80],
+      "kcalPerKg": 4000,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 32, "grams": { "low": 399, "medium": 445, "high": 491 } },
+            { "weightKg": 34, "grams": { "low": 419, "medium": 483, "high": 513 } },
+            { "weightKg": 38, "grams": { "low": 451, "medium": 501, "high": 557 } },
+            { "weightKg": 42, "grams": { "low": 490, "medium": 540, "high": 595 } },
+            { "weightKg": 50, "grams": { "low": 558, "medium": 616, "high": 678 } },
+            { "weightKg": 60, "grams": { "low": 640, "medium": 706, "high": 778 } },
+            { "weightKg": 70, "grams": { "low": 718, "medium": 792, "high": 873 } },
+            { "weightKg": 80, "grams": { "low": 794, "medium": 876, "high": 965 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Le tre colonne ufficiali Monge (cane sovrappeso / normopeso / sottopeso) sono usate rispettivamente per attività bassa / normale / alta: ogni valore è del produttore.",
+        "Con condroitina, glucosamina e L-carnitina per articolazioni e peso ottimale."
+      ],
+      "sourceUrl": "https://www.monge.it/wp-content/uploads/2016/04/monge_cane_secco_maxi_adult_ricco_di_pollo_ITA.pdf",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "trainer-maxi-adult-pollo",
+      "slug": "maintenance-maxi-adult-pollo",
+      "brandSlug": "natural-trainer",
+      "name": "Maintenance Maxi Adult con Pollo Fresco",
+      "line": "Maintenance",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [31, 80],
+      "kcalPerKg": 3790,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 31, "grams": { "low": 335, "medium": 370, "high": 405 } },
+            { "weightKg": 35, "grams": { "low": 365, "medium": 403, "high": 440 } },
+            { "weightKg": 40, "grams": { "low": 405, "medium": 448, "high": 490 } },
+            { "weightKg": 45, "grams": { "low": 440, "medium": 488, "high": 535 } },
+            { "weightKg": 50, "grams": { "low": 480, "medium": 530, "high": 580 } },
+            { "weightKg": 55, "grams": { "low": 515, "medium": 568, "high": 620 } },
+            { "weightKg": 60, "grams": { "low": 550, "medium": 608, "high": 665 } },
+            { "weightKg": 65, "grams": { "low": 580, "medium": 643, "high": 705 } },
+            { "weightKg": 70, "grams": { "low": 615, "medium": 680, "high": 745 } },
+            { "weightKg": 80, "grams": { "low": 680, "medium": 753, "high": 825 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Trainer pubblica due colonne di attività (+ e ++): 'bassa' e 'alta' sono i valori ufficiali, 'normale' è il punto medio tra le due.",
+        "Con collagene bioattivo, semi di lino e spirulina."
+      ],
+      "sourceUrl": "https://www.naturaltrainer.com/row/en/dog/chicken-maxi-adult-for-dogs-1000112.html",
+      "sourceDate": "2026-07-11"
+    }
+  ]
+}
