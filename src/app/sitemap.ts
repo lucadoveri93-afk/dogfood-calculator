@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { dataProvider } from "@/lib/data/provider";
 
-const BASE = "https://dogfood-calculator.example.com";
+const BASE = "https://dogfood-calculator.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const db = dataProvider.getDatabase();

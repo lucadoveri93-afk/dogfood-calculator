@@ -6,7 +6,7 @@ import { ThemeToggle } from "@/components/theme-toggle";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://dogfood-calculator.example.com"),
+  metadataBase: new URL("https://dogfood-calculator.vercel.app"),
   title: {
     default: "DogFood Calculator — la dose perfetta di crocchette",
     template: "%s | DogFood Calculator",
