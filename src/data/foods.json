@@ -444,6 +444,97 @@
       ],
       "sourceUrl": "https://www.naturaltrainer.com/row/en/dog/chicken-maxi-adult-for-dogs-1000112.html",
       "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-mini-adult",
+      "slug": "mini-adult",
+      "brandSlug": "royal-canin",
+      "name": "Mini Adult",
+      "line": "Size Health Nutrition",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [1, 10],
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 40, "medium": 47, "high": 53 } },
+            { "weightKg": 3, "grams": { "low": 55, "medium": 63, "high": 72 } },
+            { "weightKg": 4, "grams": { "low": 68, "medium": 79, "high": 89 } },
+            { "weightKg": 5, "grams": { "low": 80, "medium": 93, "high": 105 } },
+            { "weightKg": 6, "grams": { "low": 92, "medium": 106, "high": 121 } },
+            { "weightKg": 7, "grams": { "low": 103, "medium": 119, "high": 136 } },
+            { "weightKg": 8, "grams": { "low": 114, "medium": 132, "high": 150 } },
+            { "weightKg": 9, "grams": { "low": 125, "medium": 144, "high": 164 } },
+            { "weightKg": 10, "grams": { "low": 135, "medium": 156, "high": 177 } }
+          ]
+        }
+      ],
+      "notes": ["Per cani adulti di taglia piccola (1–10 kg), oltre 10 mesi."],
+      "sourceUrl": "https://www.royalcanin.com/mt/dogs/products/retail-products/mini-adult-3001",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-mini-puppy",
+      "slug": "mini-puppy",
+      "brandSlug": "royal-canin",
+      "name": "Mini Puppy",
+      "line": "Size Health Nutrition",
+      "lifeStages": ["puppy"],
+      "targetWeightKg": [1, 10],
+      "tables": [
+        {
+          "kind": "puppyByAge",
+          "lifeStage": "puppy",
+          "rows": [
+            { "ageMonths": 2, "byAdultWeight": [ { "adultWeightKg": 2, "grams": 49 }, { "adultWeightKg": 6, "grams": 103 }, { "adultWeightKg": 10, "grams": 146 } ] },
+            { "ageMonths": 3, "byAdultWeight": [ { "adultWeightKg": 2, "grams": 54 }, { "adultWeightKg": 6, "grams": 119 }, { "adultWeightKg": 10, "grams": 172 } ] },
+            { "ageMonths": 4, "byAdultWeight": [ { "adultWeightKg": 2, "grams": 55 }, { "adultWeightKg": 6, "grams": 125 }, { "adultWeightKg": 10, "grams": 182 } ] },
+            { "ageMonths": 5, "byAdultWeight": [ { "adultWeightKg": 2, "grams": 55 }, { "adultWeightKg": 6, "grams": 126 }, { "adultWeightKg": 10, "grams": 185 } ] },
+            { "ageMonths": 6, "byAdultWeight": [ { "adultWeightKg": 2, "grams": 48 }, { "adultWeightKg": 6, "grams": 125 }, { "adultWeightKg": 10, "grams": 184 } ] },
+            { "ageMonths": 7, "byAdultWeight": [ { "adultWeightKg": 2, "grams": 40 }, { "adultWeightKg": 6, "grams": 113 }, { "adultWeightKg": 10, "grams": 167 } ] },
+            { "ageMonths": 8, "byAdultWeight": [ { "adultWeightKg": 2, "grams": 39 }, { "adultWeightKg": 6, "grams": 101 }, { "adultWeightKg": 10, "grams": 149 } ] },
+            { "ageMonths": 9, "byAdultWeight": [ { "adultWeightKg": 2, "grams": 39 }, { "adultWeightKg": 6, "grams": 90 }, { "adultWeightKg": 10, "grams": 133 } ] },
+            { "ageMonths": 10, "byAdultWeight": [ { "adultWeightKg": 2, "grams": 39 }, { "adultWeightKg": 6, "grams": 89 }, { "adultWeightKg": 10, "grams": 132 } ] }
+          ]
+        }
+      ],
+      "notes": [
+        "Per cuccioli di taglia piccola (peso adulto fino a 10 kg), da 2 a 10 mesi; poi transizione a Mini Adult.",
+        "La tabella puppy usa il peso previsto da adulto, non il peso attuale del cucciolo."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/mt/dogs/products/retail-products/mini-puppy-3000",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-giant-puppy",
+      "slug": "giant-puppy",
+      "brandSlug": "royal-canin",
+      "name": "Giant Puppy",
+      "line": "Size Health Nutrition",
+      "lifeStages": ["puppy"],
+      "targetWeightKg": [45, 100],
+      "tables": [
+        {
+          "kind": "puppyByAge",
+          "lifeStage": "puppy",
+          "rows": [
+            { "ageMonths": 2, "byAdultWeight": [ { "adultWeightKg": 45, "grams": 311 }, { "adultWeightKg": 60, "grams": 397 }, { "adultWeightKg": 75, "grams": 442 }, { "adultWeightKg": 90, "grams": 490 }, { "adultWeightKg": 100, "grams": 530 } ] },
+            { "ageMonths": 3, "byAdultWeight": [ { "adultWeightKg": 45, "grams": 409 }, { "adultWeightKg": 60, "grams": 507 }, { "adultWeightKg": 75, "grams": 584 }, { "adultWeightKg": 90, "grams": 660 }, { "adultWeightKg": 100, "grams": 714 } ] },
+            { "ageMonths": 4, "byAdultWeight": [ { "adultWeightKg": 45, "grams": 452 }, { "adultWeightKg": 60, "grams": 559 }, { "adultWeightKg": 75, "grams": 651 }, { "adultWeightKg": 90, "grams": 734 }, { "adultWeightKg": 100, "grams": 794 } ] },
+            { "ageMonths": 5, "byAdultWeight": [ { "adultWeightKg": 45, "grams": 537 }, { "adultWeightKg": 60, "grams": 662 }, { "adultWeightKg": 75, "grams": 775 }, { "adultWeightKg": 90, "grams": 884 }, { "adultWeightKg": 100, "grams": 957 } ] },
+            { "ageMonths": 6, "byAdultWeight": [ { "adultWeightKg": 45, "grams": 611 }, { "adultWeightKg": 60, "grams": 753 }, { "adultWeightKg": 75, "grams": 884 }, { "adultWeightKg": 90, "grams": 1007 }, { "adultWeightKg": 100, "grams": 1090 } ] },
+            { "ageMonths": 7, "byAdultWeight": [ { "adultWeightKg": 45, "grams": 613 }, { "adultWeightKg": 60, "grams": 760 }, { "adultWeightKg": 75, "grams": 897 }, { "adultWeightKg": 90, "grams": 1026 }, { "adultWeightKg": 100, "grams": 1110 } ] },
+            { "ageMonths": 8, "byAdultWeight": [ { "adultWeightKg": 45, "grams": 609 }, { "adultWeightKg": 60, "grams": 760 }, { "adultWeightKg": 75, "grams": 899 }, { "adultWeightKg": 90, "grams": 1030 }, { "adultWeightKg": 100, "grams": 1115 } ] }
+          ]
+        }
+      ],
+      "notes": [
+        "Per cuccioli di taglia gigante (peso adulto oltre 45 kg), da 2 a 8 mesi; poi transizione a Giant Junior.",
+        "La tabella puppy usa il peso previsto da adulto, non il peso attuale del cucciolo."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/mt/dogs/products/retail-products/giant-puppy-3030",
+      "sourceDate": "2026-07-11"
     }
   ]
 }
