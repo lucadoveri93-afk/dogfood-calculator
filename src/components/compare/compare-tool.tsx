@@ -31,7 +31,9 @@ function ProductPicker({
   slot: Slot;
   onChange: (slot: Slot) => void;
 }) {
-  const brands = dataProvider.getBrands();
+  const brands = dataProvider
+    .getBrands()
+    .filter((b) => dataProvider.getProductsByBrand(b.slug).length > 0);
   const products = useMemo(
     () => (slot.brandSlug ? dataProvider.getProductsByBrand(slot.brandSlug) : []),
     [slot.brandSlug],

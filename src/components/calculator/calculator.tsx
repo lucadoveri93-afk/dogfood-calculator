@@ -69,7 +69,11 @@ export function Calculator({ initialBrandSlug, initialProductId }: CalculatorPro
   const [qrOpen, setQrOpen] = useState(false);
   const [starred, setStarred] = useState(false);
 
-  const brands = dataProvider.getBrands();
+  // Solo marche con almeno un prodotto calcolabile: le altre sono a
+  // catalogo ma senza tabella, e nel form sarebbero vicoli ciechi.
+  const brands = dataProvider
+    .getBrands()
+    .filter((b) => dataProvider.getProductsByBrand(b.slug).length > 0);
 
   const {
     control,
