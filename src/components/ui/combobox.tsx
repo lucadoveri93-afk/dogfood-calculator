@@ -9,6 +9,8 @@ export interface ComboOption {
   value: string;
   label: string;
   hint?: string;
+  /** Visibile ma non selezionabile (es. linea a catalogo senza tabella). */
+  disabled?: boolean;
 }
 
 interface ComboboxProps {
@@ -107,13 +109,19 @@ export function Combobox({
                     type="button"
                     role="option"
                     aria-selected={opt.value === value}
+                    aria-disabled={opt.disabled}
+                    disabled={opt.disabled}
                     onClick={() => {
+                      if (opt.disabled) return;
                       onChange(opt.value);
                       setOpen(false);
                       setQuery("");
                     }}
                     className={cn(
-                      "flex w-full items-center justify-between rounded-xl px-3 py-2.5 text-left text-sm transition-colors hover:bg-muted",
+                      "flex w-full items-center justify-between rounded-xl px-3 py-2.5 text-left text-sm transition-colors",
+                      opt.disabled
+                        ? "cursor-default opacity-50"
+                        : "hover:bg-muted",
                       opt.value === value && "font-medium",
                     )}
                   >

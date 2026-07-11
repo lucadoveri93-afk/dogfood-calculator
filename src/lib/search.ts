@@ -24,3 +24,18 @@ export function createProductSearch(products: Product[]) {
   return (query: string): Product[] =>
     query.trim() === "" ? products : fuse.search(query).map((r) => r.item);
 }
+
+/** Ricerca fuzzy generica su opzioni {value,label,hint} già costruite. */
+export function createOptionSearch<
+  T extends { value: string; label: string; hint?: string },
+>(options: T[]) {
+  const fuse = new Fuse(options, {
+    keys: ["label", "hint"],
+    threshold: 0.35,
+    ignoreLocation: true,
+  });
+  return (query: string): string[] =>
+    (query.trim() === "" ? options : fuse.search(query).map((r) => r.item)).map(
+      (o) => o.value,
+    );
+}

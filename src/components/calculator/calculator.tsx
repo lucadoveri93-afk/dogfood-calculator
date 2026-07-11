@@ -16,7 +16,7 @@ import {
 
 import { dataProvider } from "@/lib/data/provider";
 import { calculateRation } from "@/lib/engine/calculator";
-import { createBrandSearch, createProductSearch } from "@/lib/search";
+import { createBrandSearch, createOptionSearch } from "@/lib/search";
 import {
   addToHistory,
   isFavorite,
@@ -102,15 +102,42 @@ export function Calculator({ initialBrandSlug, initialProductId }: CalculatorPro
     [brandSlug],
   );
 
+  // Menu Prodotto: prodotti calcolabili (selezionabili) + tutte le altre
+  // linee a catalogo della marca, visibili ma disabilitate ("in arrivo").
+  const productOptions = useMemo(() => {
+    if (!brandSlug) return [];
+    const calculable = products.map((p) => ({
+      value: p.id,
+      label: p.name,
+      hint: p.line,
+    }));
+    const covered = new Set(
+      dataProvider
+        .getLinesByBrand(brandSlug)
+        .filter((l) => (l.productIds?.length ?? 0) > 0)
+        .map((l) => l.id),
+    );
+    const pending = dataProvider
+      .getLinesByBrand(brandSlug)
+      .filter((l) => !covered.has(l.id))
+      .map((l) => ({
+        value: `line:${l.id}`,
+        label: l.name,
+        hint: `${l.group} · in arrivo${l.vet ? " · veterinario" : ""}`,
+        disabled: true,
+      }));
+    return [...calculable, ...pending];
+  }, [brandSlug, products]);
+
   const searchBrands = useMemo(() => {
     const search = createBrandSearch(brands);
     return (q: string) => search(q).map((b) => b.slug);
   }, [brands]);
 
-  const searchProducts = useMemo(() => {
-    const search = createProductSearch(products);
-    return (q: string) => search(q).map((p) => p.id);
-  }, [products]);
+  const searchProducts = useMemo(
+    () => createOptionSearch(productOptions),
+    [productOptions],
+  );
 
   // Link condiviso (QR): se l'URL della pagina prodotto contiene i parametri,
   // precompila e calcola subito.
@@ -316,11 +343,7 @@ export function Calculator({ initialBrandSlug, initialProductId }: CalculatorPro
                     name="productId"
                     render={({ field }) => (
                       <Combobox
-                        options={products.map((p) => ({
-                          value: p.id,
-                          label: p.name,
-                          hint: p.line,
-                        }))}
+                        options={productOptions}
                         value={field.value || null}
                         onChange={field.onChange}
                         filter={searchProducts}
