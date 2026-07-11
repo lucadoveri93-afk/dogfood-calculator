@@ -43,7 +43,9 @@
     { "slug": "arion", "name": "Arion", "description": "Premium e linee sportive.", "country": "Spagna" },
     { "slug": "calibra", "name": "Calibra", "description": "Premium e diete veterinarie ceche.", "country": "Repubblica Ceca" },
     { "slug": "opti-life", "name": "Opti Life", "description": "Super premium Versele-Laga.", "country": "Belgio" },
-    { "slug": "bewi-dog", "name": "Bewi Dog", "description": "Mantenimento tedesco, Bewital.", "country": "Germania" }
+    { "slug": "bewi-dog", "name": "Bewi Dog", "description": "Mantenimento tedesco, Bewital.", "country": "Germania" },
+    { "slug": "kudo", "name": "Kudo", "description": "Crocchette pressate a freddo, Danube Petfoods.", "country": "Serbia" },
+    { "slug": "virtus", "name": "Virtus", "description": "Super premium ancestrale, esclusiva Arcaplanet.", "country": "Italia" }
   ],
   "products": [
     {
