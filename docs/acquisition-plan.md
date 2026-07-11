@@ -5,7 +5,7 @@ tranne quelle per cui il produttore non pubblica dati per peso (da marcare
 `tableUnavailable: true` in catalog.json dopo verifica).
 
 **Tracker**: `src/data/catalog.json` — linea senza `productIds` = da fare.
-Stato al 2026-07-12: 18/574 coperte.
+Stato al 2026-07-11 (sessione 2): 27/574 coperte.
 
 ## Regole (non negoziabili)
 
@@ -22,7 +22,7 @@ Stato al 2026-07-12: 18/574 coperte.
 | Brand | Fonte | Pattern | Note |
 | --- | --- | --- | --- |
 | Royal Canin retail | royalcanin.com/mt | `/mt/dogs/products/retail-products/<slug>-<codice>` | codici noti: 3000-3009 serie size, 3030 giant puppy |
-| Royal Canin Veterinary | royalcanin.com/ie | `/ie/dogs/products/vet-products/<slug>-<codice>` | Gastrointestinal=3911 fatto; provare: low-fat-3932, renal-3916, urinary-so-3913, hypoallergenic-3592, satiety... verificare codice per codice |
+| Royal Canin Veterinary | royalcanin.com/ie | `/ie/dogs/products/vet-products/<slug>-<codice>` | fatti: 3911, low-fat-3932, renal-3916, urinary-so-3913, hypoallergenic-3910 (NON 3592), anallergenic-4014, diabetic-4086, hepatic-3927, satiety-weight-management-3948, gastrointestinal-puppy-3957. Restanti: cercare codice con WebSearch site:royalcanin.com/ie (indice prodotti JS-rendered, inutile) |
 | Royal Canin Breed | royalcanin.com/mt | `/mt/dogs/products/retail-products/<razza>-adult-<cod>` | labrador ~3011? da scoprire |
 | Monge / Gemon / Special Dog | monge.it | PDF: `/wp-content/uploads/<anno>/<mese>/monge_cane_secco_<linea>_ITA.pdf` | cercare con WebSearch `site:monge.it filetype:pdf <linea>` |
 | Farmina N&D | farmina.com | PDF dosi: `/fotoprodotti/dosi/<id>_<slug>.pdf` | link "Visualizza tabella dosi" nella pagina prodotto |

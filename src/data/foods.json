@@ -612,6 +612,362 @@
       ],
       "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/gastrointestinal-3911",
       "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-gastrointestinal-low-fat-dry",
+      "slug": "veterinary-gastrointestinal-low-fat",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Gastrointestinal Low Fat",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 80],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 46, "medium": 53, "high": 61 } },
+            { "weightKg": 4, "grams": { "low": 77, "medium": 90, "high": 102 } },
+            { "weightKg": 6, "grams": { "low": 105, "medium": 122, "high": 138 } },
+            { "weightKg": 8, "grams": { "low": 130, "medium": 151, "high": 171 } },
+            { "weightKg": 10, "grams": { "low": 154, "medium": 178, "high": 203 } },
+            { "weightKg": 15, "grams": { "low": 209, "medium": 242, "high": 275 } },
+            { "weightKg": 20, "grams": { "low": 259, "medium": 300, "high": 341 } },
+            { "weightKg": 25, "grams": { "low": 306, "medium": 354, "high": 403 } },
+            { "weightKg": 30, "grams": { "low": 351, "medium": 406, "high": 462 } },
+            { "weightKg": 35, "grams": { "low": 394, "medium": 456, "high": 518 } },
+            { "weightKg": 40, "grams": { "low": 435, "medium": 504, "high": 573 } },
+            { "weightKg": 45, "grams": { "low": 476, "medium": 551, "high": 626 } },
+            { "weightKg": 50, "grams": { "low": 515, "medium": 596, "high": 677 } },
+            { "weightKg": 55, "grams": { "low": 553, "medium": 640, "high": 728 } },
+            { "weightKg": 60, "grams": { "low": 590, "medium": 683, "high": 777 } },
+            { "weightKg": 70, "grams": { "low": 663, "medium": 767, "high": 872 } },
+            { "weightKg": 80, "grams": { "low": 732, "medium": 848, "high": 964 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per il supporto del metabolismo lipidico in caso di iperlipidemia; basso tenore di grassi. Uso iniziale fino a 2 mesi su indicazione veterinaria.",
+        "Le tre colonne ufficiali Royal Canin (cane sottopeso / normopeso / sovrappeso) sono usate rispettivamente per attività alta / normale / bassa: ogni valore è del produttore."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/gastrointestinal-low-fat-3932",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-renal-dry",
+      "slug": "veterinary-renal",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Renal",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 80],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 40, "medium": 46, "high": 53 } },
+            { "weightKg": 4, "grams": { "low": 67, "medium": 78, "high": 89 } },
+            { "weightKg": 6, "grams": { "low": 91, "medium": 106, "high": 120 } },
+            { "weightKg": 8, "grams": { "low": 113, "medium": 131, "high": 149 } },
+            { "weightKg": 10, "grams": { "low": 134, "medium": 155, "high": 176 } },
+            { "weightKg": 15, "grams": { "low": 182, "medium": 210, "high": 239 } },
+            { "weightKg": 20, "grams": { "low": 226, "medium": 261, "high": 297 } },
+            { "weightKg": 25, "grams": { "low": 267, "medium": 309, "high": 351 } },
+            { "weightKg": 30, "grams": { "low": 306, "medium": 354, "high": 402 } },
+            { "weightKg": 35, "grams": { "low": 343, "medium": 397, "high": 451 } },
+            { "weightKg": 40, "grams": { "low": 379, "medium": 439, "high": 499 } },
+            { "weightKg": 45, "grams": { "low": 414, "medium": 480, "high": 545 } },
+            { "weightKg": 50, "grams": { "low": 448, "medium": 519, "high": 590 } },
+            { "weightKg": 55, "grams": { "low": 482, "medium": 558, "high": 634 } },
+            { "weightKg": 60, "grams": { "low": 514, "medium": 595, "high": 676 } },
+            { "weightKg": 65, "grams": { "low": 546, "medium": 632, "high": 718 } },
+            { "weightKg": 70, "grams": { "low": 577, "medium": 668, "high": 759 } },
+            { "weightKg": 80, "grams": { "low": 638, "medium": 739, "high": 839 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per il supporto della funzione renale in caso di insufficienza renale cronica; proteine di alta qualità e fosforo ridotto. Uso iniziale fino a 6 mesi su indicazione veterinaria.",
+        "Le tre colonne ufficiali Royal Canin (cane sottopeso / normopeso / sovrappeso) sono usate rispettivamente per attività alta / normale / bassa: ogni valore è del produttore."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/renal-3916",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-urinary-so-dry",
+      "slug": "veterinary-urinary-so",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Urinary S/O",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 20],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 41, "medium": 48, "high": 54 } },
+            { "weightKg": 5, "grams": { "low": 82, "medium": 95, "high": 108 } },
+            { "weightKg": 10, "grams": { "low": 138, "medium": 159, "high": 181 } },
+            { "weightKg": 15, "grams": { "low": 187, "medium": 216, "high": 245 } },
+            { "weightKg": 20, "grams": { "low": 232, "medium": 268, "high": 305 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per la dissoluzione degli struviti e la riduzione delle recidive. Uso su indicazione veterinaria (5–12 settimane per dissoluzione, fino a 6 mesi per prevenzione recidive).",
+        "Il produttore pubblica la tabella solo da 2 a 20 kg; sono usate le colonne 'dry only'.",
+        "Le tre colonne ufficiali Royal Canin (cane sottopeso / normopeso / sovrappeso) sono usate rispettivamente per attività alta / normale / bassa: ogni valore è del produttore."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/urinary-so-3913",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-satiety-weight-management-dry",
+      "slug": "veterinary-satiety-weight-management",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Satiety Weight Management",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [10, 90],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "single",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 10, "grams": 148 },
+            { "weightKg": 12, "grams": 169 },
+            { "weightKg": 14, "grams": 190 },
+            { "weightKg": 16, "grams": 210 },
+            { "weightKg": 18, "grams": 229 },
+            { "weightKg": 20, "grams": 248 },
+            { "weightKg": 25, "grams": 293 },
+            { "weightKg": 30, "grams": 336 },
+            { "weightKg": 35, "grams": 378 },
+            { "weightKg": 40, "grams": 417 },
+            { "weightKg": 45, "grams": 456 },
+            { "weightKg": 50, "grams": 493 },
+            { "weightKg": 55, "grams": 530 },
+            { "weightKg": 60, "grams": 566 },
+            { "weightKg": 70, "grams": 635 },
+            { "weightKg": 80, "grams": 702 },
+            { "weightKg": 90, "grams": 767 }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per la riduzione del peso corporeo in eccesso; bassa densità energetica. Uso su indicazione veterinaria.",
+        "La tabella del produttore è indicizzata sul PESO IDEALE del cane (non quello attuale) e qui è riportata la colonna 'Start' (inizio programma). Il produttore indica razioni ridotte dopo 4 settimane e una razione di mantenimento post-dimagrimento: vedi fonte.",
+        "La razione va prescritta e verificata dal veterinario; si raccomanda l'uso di una bilancia digitale."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/satiety-weight-management-3948",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-hepatic-dry",
+      "slug": "veterinary-hepatic",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Hepatic",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 80],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 41, "medium": 48, "high": 54 } },
+            { "weightKg": 4, "grams": { "low": 69, "medium": 80, "high": 91 } },
+            { "weightKg": 6, "grams": { "low": 94, "medium": 109, "high": 123 } },
+            { "weightKg": 8, "grams": { "low": 116, "medium": 135, "high": 153 } },
+            { "weightKg": 10, "grams": { "low": 138, "medium": 159, "high": 181 } },
+            { "weightKg": 15, "grams": { "low": 187, "medium": 216, "high": 245 } },
+            { "weightKg": 20, "grams": { "low": 232, "medium": 268, "high": 305 } },
+            { "weightKg": 25, "grams": { "low": 274, "medium": 317, "high": 360 } },
+            { "weightKg": 30, "grams": { "low": 314, "medium": 363, "high": 413 } },
+            { "weightKg": 35, "grams": { "low": 352, "medium": 408, "high": 463 } },
+            { "weightKg": 40, "grams": { "low": 389, "medium": 451, "high": 512 } },
+            { "weightKg": 45, "grams": { "low": 425, "medium": 492, "high": 560 } },
+            { "weightKg": 50, "grams": { "low": 460, "medium": 533, "high": 606 } },
+            { "weightKg": 55, "grams": { "low": 494, "medium": 572, "high": 650 } },
+            { "weightKg": 60, "grams": { "low": 528, "medium": 611, "high": 694 } },
+            { "weightKg": 70, "grams": { "low": 592, "medium": 686, "high": 779 } },
+            { "weightKg": 80, "grams": { "low": 655, "medium": 758, "high": 862 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per il supporto della funzione epatica in caso di insufficienza epatica cronica e per la riduzione del rame nel fegato. Uso iniziale 4–6 mesi su indicazione veterinaria.",
+        "Le tre colonne ufficiali Royal Canin (cane sottopeso / normopeso / sovrappeso) sono usate rispettivamente per attività alta / normale / bassa: ogni valore è del produttore."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/hepatic-3927",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-hypoallergenic-dry",
+      "slug": "veterinary-hypoallergenic",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Hypoallergenic",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 80],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 39, "medium": 45, "high": 52 } },
+            { "weightKg": 4, "grams": { "low": 66, "medium": 76, "high": 87 } },
+            { "weightKg": 6, "grams": { "low": 89, "medium": 103, "high": 117 } },
+            { "weightKg": 8, "grams": { "low": 111, "medium": 128, "high": 146 } },
+            { "weightKg": 10, "grams": { "low": 131, "medium": 152, "high": 172 } },
+            { "weightKg": 15, "grams": { "low": 178, "medium": 206, "high": 234 } },
+            { "weightKg": 20, "grams": { "low": 220, "medium": 255, "high": 290 } },
+            { "weightKg": 25, "grams": { "low": 260, "medium": 302, "high": 343 } },
+            { "weightKg": 30, "grams": { "low": 299, "medium": 346, "high": 393 } },
+            { "weightKg": 35, "grams": { "low": 335, "medium": 388, "high": 441 } },
+            { "weightKg": 40, "grams": { "low": 370, "medium": 429, "high": 487 } },
+            { "weightKg": 45, "grams": { "low": 405, "medium": 469, "high": 532 } },
+            { "weightKg": 50, "grams": { "low": 438, "medium": 507, "high": 576 } },
+            { "weightKg": 55, "grams": { "low": 470, "medium": 545, "high": 619 } },
+            { "weightKg": 60, "grams": { "low": 502, "medium": 581, "high": 661 } },
+            { "weightKg": 70, "grams": { "low": 564, "medium": 653, "high": 742 } },
+            { "weightKg": 80, "grams": { "low": 623, "medium": 721, "high": 820 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per la riduzione di intolleranze a ingredienti e nutrienti (proteina di soia idrolizzata a basso peso molecolare). Uso 3–8 settimane su indicazione veterinaria; se i segni scompaiono può essere usato indefinitamente.",
+        "Le tre colonne ufficiali Royal Canin (cane sottopeso / normopeso / sovrappeso) sono usate rispettivamente per attività alta / normale / bassa: ogni valore è del produttore."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/hypoallergenic-3910",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-diabetic-dry",
+      "slug": "veterinary-diabetic",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Diabetic",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 80],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 46, "medium": 54, "high": 61 } },
+            { "weightKg": 4, "grams": { "low": 78, "medium": 91, "high": 103 } },
+            { "weightKg": 6, "grams": { "low": 106, "medium": 123, "high": 139 } },
+            { "weightKg": 8, "grams": { "low": 131, "medium": 152, "high": 173 } },
+            { "weightKg": 10, "grams": { "low": 155, "medium": 180, "high": 205 } },
+            { "weightKg": 15, "grams": { "low": 211, "medium": 244, "high": 277 } },
+            { "weightKg": 20, "grams": { "low": 261, "medium": 303, "high": 344 } },
+            { "weightKg": 25, "grams": { "low": 309, "medium": 358, "high": 407 } },
+            { "weightKg": 30, "grams": { "low": 354, "medium": 410, "high": 466 } },
+            { "weightKg": 35, "grams": { "low": 398, "medium": 461, "high": 523 } },
+            { "weightKg": 40, "grams": { "low": 440, "medium": 509, "high": 578 } },
+            { "weightKg": 45, "grams": { "low": 480, "medium": 556, "high": 632 } },
+            { "weightKg": 50, "grams": { "low": 520, "medium": 602, "high": 684 } },
+            { "weightKg": 55, "grams": { "low": 558, "medium": 646, "high": 735 } },
+            { "weightKg": 60, "grams": { "low": 596, "medium": 690, "high": 784 } },
+            { "weightKg": 70, "grams": { "low": 669, "medium": 775, "high": 880 } },
+            { "weightKg": 80, "grams": { "low": 739, "medium": 856, "high": 973 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per la regolazione dell'apporto di glucosio (diabete mellito); basso indice glicemico e amido ridotto. Uso iniziale fino a 6 mesi su indicazione veterinaria.",
+        "Le tre colonne ufficiali Royal Canin (cane sottopeso / normopeso / sovrappeso) sono usate rispettivamente per attività alta / normale / bassa: ogni valore è del produttore."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/diabetic-4086",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-anallergenic-dry",
+      "slug": "veterinary-anallergenic",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Anallergenic",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 80],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 40, "medium": 46, "high": 53 } },
+            { "weightKg": 4, "grams": { "low": 67, "medium": 78, "high": 88 } },
+            { "weightKg": 6, "grams": { "low": 91, "medium": 105, "high": 120 } },
+            { "weightKg": 8, "grams": { "low": 113, "medium": 131, "high": 149 } },
+            { "weightKg": 10, "grams": { "low": 133, "medium": 155, "high": 176 } },
+            { "weightKg": 15, "grams": { "low": 181, "medium": 209, "high": 238 } },
+            { "weightKg": 20, "grams": { "low": 224, "medium": 260, "high": 295 } },
+            { "weightKg": 25, "grams": { "low": 265, "medium": 307, "high": 349 } },
+            { "weightKg": 30, "grams": { "low": 304, "medium": 352, "high": 400 } },
+            { "weightKg": 35, "grams": { "low": 341, "medium": 395, "high": 449 } },
+            { "weightKg": 40, "grams": { "low": 377, "medium": 437, "high": 497 } },
+            { "weightKg": 45, "grams": { "low": 412, "medium": 477, "high": 543 } },
+            { "weightKg": 50, "grams": { "low": 446, "medium": 517, "high": 587 } },
+            { "weightKg": 55, "grams": { "low": 479, "medium": 555, "high": 631 } },
+            { "weightKg": 60, "grams": { "low": 512, "medium": 592, "high": 673 } },
+            { "weightKg": 70, "grams": { "low": 574, "medium": 665, "high": 756 } },
+            { "weightKg": 80, "grams": { "low": 635, "medium": 735, "high": 835 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per la riduzione di intolleranze a ingredienti e nutrienti (idrolizzato di proteine delle piume, oligopeptidi a bassissimo peso molecolare). Uso 3–8 settimane su indicazione veterinaria; se i segni scompaiono può essere usato indefinitamente. Il produttore consiglia di dividere la razione in 2 pasti.",
+        "Le tre colonne ufficiali Royal Canin (cane sottopeso / normopeso / sovrappeso) sono usate rispettivamente per attività alta / normale / bassa: ogni valore è del produttore."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/anallergenic-4014",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-gastrointestinal-puppy-dry",
+      "slug": "veterinary-gastrointestinal-puppy",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Gastrointestinal Puppy",
+      "line": "Veterinary Diet",
+      "lifeStages": ["puppy"],
+      "targetWeightKg": [5, 40],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "puppyByAge",
+          "lifeStage": "puppy",
+          "rows": [
+            { "ageMonths": 1, "byAdultWeight": [ { "adultWeightKg": 5, "grams": 65 }, { "adultWeightKg": 10, "grams": 91 }, { "adultWeightKg": 20, "grams": 129 }, { "adultWeightKg": 30, "grams": 143 }, { "adultWeightKg": 40, "grams": 156 } ] },
+            { "ageMonths": 2, "byAdultWeight": [ { "adultWeightKg": 5, "grams": 90 }, { "adultWeightKg": 10, "grams": 141 }, { "adultWeightKg": 20, "grams": 226 }, { "adultWeightKg": 30, "grams": 248 }, { "adultWeightKg": 40, "grams": 270 } ] },
+            { "ageMonths": 3, "byAdultWeight": [ { "adultWeightKg": 5, "grams": 101 }, { "adultWeightKg": 10, "grams": 166 }, { "adultWeightKg": 20, "grams": 273 }, { "adultWeightKg": 30, "grams": 311 }, { "adultWeightKg": 40, "grams": 350 } ] },
+            { "ageMonths": 4, "byAdultWeight": [ { "adultWeightKg": 5, "grams": 106 }, { "adultWeightKg": 10, "grams": 176 }, { "adultWeightKg": 20, "grams": 293 }, { "adultWeightKg": 30, "grams": 339 }, { "adultWeightKg": 40, "grams": 385 } ] },
+            { "ageMonths": 5, "byAdultWeight": [ { "adultWeightKg": 5, "grams": 106 }, { "adultWeightKg": 10, "grams": 179 }, { "adultWeightKg": 20, "grams": 301 }, { "adultWeightKg": 30, "grams": 374 }, { "adultWeightKg": 40, "grams": 448 } ] },
+            { "ageMonths": 6, "byAdultWeight": [ { "adultWeightKg": 5, "grams": 96 }, { "adultWeightKg": 10, "grams": 178 }, { "adultWeightKg": 20, "grams": 301 }, { "adultWeightKg": 30, "grams": 407 }, { "adultWeightKg": 40, "grams": 505 } ] },
+            { "ageMonths": 7, "byAdultWeight": [ { "adultWeightKg": 5, "grams": 87 }, { "adultWeightKg": 10, "grams": 161 }, { "adultWeightKg": 20, "grams": 280 }, { "adultWeightKg": 30, "grams": 408 }, { "adultWeightKg": 40, "grams": 506 } ] },
+            { "ageMonths": 8, "byAdultWeight": [ { "adultWeightKg": 5, "grams": 77 }, { "adultWeightKg": 10, "grams": 144 }, { "adultWeightKg": 20, "grams": 261 }, { "adultWeightKg": 30, "grams": 380 }, { "adultWeightKg": 40, "grams": 475 } ] },
+            { "ageMonths": 9, "byAdultWeight": [ { "adultWeightKg": 5, "grams": 76 }, { "adultWeightKg": 10, "grams": 129 }, { "adultWeightKg": 20, "grams": 238 }, { "adultWeightKg": 30, "grams": 354 }, { "adultWeightKg": 40, "grams": 445 } ] },
+            { "ageMonths": 10, "byAdultWeight": [ { "adultWeightKg": 5, "grams": 75 }, { "adultWeightKg": 10, "grams": 128 }, { "adultWeightKg": 20, "grams": 217 }, { "adultWeightKg": 30, "grams": 322 }, { "adultWeightKg": 40, "grams": 414 } ] },
+            { "ageMonths": 11, "byAdultWeight": [ { "adultWeightKg": 10, "grams": 126 }, { "adultWeightKg": 20, "grams": 214 }, { "adultWeightKg": 30, "grams": 292 }, { "adultWeightKg": 40, "grams": 389 } ] },
+            { "ageMonths": 12, "byAdultWeight": [ { "adultWeightKg": 10, "grams": 126 }, { "adultWeightKg": 20, "grams": 213 }, { "adultWeightKg": 30, "grams": 290 }, { "adultWeightKg": 40, "grams": 364 } ] }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per cuccioli con sensibilità digestive; formula ad alta energia con fibre e prebiotici. Uso su indicazione veterinaria.",
+        "La tabella puppy usa il peso previsto da adulto, non il peso attuale del cucciolo.",
+        "Il produttore pubblica fasce di età bimestrali con un intervallo di grammi (es. '1–2 mesi: 65–90 g'): il primo valore è attribuito al primo mese della fascia e il secondo al secondo mese. La cella 11–12 mesi per peso adulto 5 kg non è pubblicata ed è omessa."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/gastrointestinal-puppy-3957",
+      "sourceDate": "2026-07-11"
     }
   ]
 }
