@@ -970,6 +970,372 @@
       ],
       "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/gastrointestinal-puppy-3957",
       "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-urinary-so-small-dog-dry",
+      "slug": "veterinary-urinary-so-small-dog",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Urinary S/O Small Dog",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 10],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 42, "medium": 48, "high": 55 } },
+            { "weightKg": 2.5, "grams": { "low": 49, "medium": 57, "high": 65 } },
+            { "weightKg": 3, "grams": { "low": 56, "medium": 65, "high": 74 } },
+            { "weightKg": 3.5, "grams": { "low": 63, "medium": 73, "high": 83 } },
+            { "weightKg": 4, "grams": { "low": 70, "medium": 81, "high": 92 } },
+            { "weightKg": 5, "grams": { "low": 83, "medium": 96, "high": 109 } },
+            { "weightKg": 6, "grams": { "low": 95, "medium": 110, "high": 125 } },
+            { "weightKg": 7, "grams": { "low": 106, "medium": 123, "high": 140 } },
+            { "weightKg": 8, "grams": { "low": 117, "medium": 136, "high": 155 } },
+            { "weightKg": 9, "grams": { "low": 128, "medium": 149, "high": 169 } },
+            { "weightKg": 10, "grams": { "low": 139, "medium": 161, "high": 183 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per cani di piccola taglia (<10 kg): dissoluzione degli struviti e riduzione delle recidive. Uso su indicazione veterinaria (5–12 settimane per dissoluzione, fino a 6 mesi per prevenzione recidive).",
+        "Le tre colonne ufficiali Royal Canin (cane sottopeso / normopeso / sovrappeso) sono usate rispettivamente per attività alta / normale / bassa: ogni valore è del produttore."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/urinary-so-small-dog-3801",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-cardiac-dry",
+      "slug": "veterinary-cardiac",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Cardiac",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 80],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 39, "medium": 45, "high": 51 } },
+            { "weightKg": 4, "grams": { "low": 65, "medium": 75, "high": 85 } },
+            { "weightKg": 6, "grams": { "low": 88, "medium": 102, "high": 116 } },
+            { "weightKg": 8, "grams": { "low": 109, "medium": 126, "high": 144 } },
+            { "weightKg": 10, "grams": { "low": 129, "medium": 149, "high": 170 } },
+            { "weightKg": 11, "grams": { "low": 139, "medium": 160, "high": 182 } },
+            { "weightKg": 15, "grams": { "low": 175, "medium": 202, "high": 230 } },
+            { "weightKg": 20, "grams": { "low": 217, "medium": 251, "high": 285 } },
+            { "weightKg": 25, "grams": { "low": 256, "medium": 297, "high": 337 } },
+            { "weightKg": 30, "grams": { "low": 294, "medium": 340, "high": 387 } },
+            { "weightKg": 35, "grams": { "low": 330, "medium": 382, "high": 434 } },
+            { "weightKg": 40, "grams": { "low": 365, "medium": 422, "high": 480 } },
+            { "weightKg": 45, "grams": { "low": 398, "medium": 461, "high": 524 } },
+            { "weightKg": 50, "grams": { "low": 431, "medium": 499, "high": 567 } },
+            { "weightKg": 55, "grams": { "low": 463, "medium": 536, "high": 609 } },
+            { "weightKg": 60, "grams": { "low": 494, "medium": 572, "high": 650 } },
+            { "weightKg": 70, "grams": { "low": 555, "medium": 643, "high": 730 } },
+            { "weightKg": 80, "grams": { "low": 613, "medium": 710, "high": 807 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per il supporto della funzione cardiaca in caso di insufficienza cardiaca cronica; sodio ridotto, con taurina e L-carnitina. Uso su indicazione veterinaria.",
+        "Le tre colonne ufficiali Royal Canin (cane sottopeso / normopeso / sovrappeso) sono usate rispettivamente per attività alta / normale / bassa: ogni valore è del produttore."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/cardiac-3930",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-skin-care-dry",
+      "slug": "veterinary-skin-care",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Skin Care",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 80],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 41, "medium": 47, "high": 54 } },
+            { "weightKg": 4, "grams": { "low": 69, "medium": 80, "high": 91 } },
+            { "weightKg": 6, "grams": { "low": 93, "medium": 108, "high": 123 } },
+            { "weightKg": 8, "grams": { "low": 116, "medium": 134, "high": 153 } },
+            { "weightKg": 10, "grams": { "low": 137, "medium": 159, "high": 180 } },
+            { "weightKg": 15, "grams": { "low": 186, "medium": 215, "high": 245 } },
+            { "weightKg": 20, "grams": { "low": 231, "medium": 267, "high": 303 } },
+            { "weightKg": 25, "grams": { "low": 273, "medium": 316, "high": 359 } },
+            { "weightKg": 30, "grams": { "low": 313, "medium": 362, "high": 411 } },
+            { "weightKg": 35, "grams": { "low": 351, "medium": 406, "high": 462 } },
+            { "weightKg": 40, "grams": { "low": 388, "medium": 449, "high": 510 } },
+            { "weightKg": 45, "grams": { "low": 424, "medium": 491, "high": 557 } },
+            { "weightKg": 50, "grams": { "low": 458, "medium": 531, "high": 603 } },
+            { "weightKg": 55, "grams": { "low": 492, "medium": 570, "high": 648 } },
+            { "weightKg": 60, "grams": { "low": 526, "medium": 609, "high": 692 } },
+            { "weightKg": 70, "grams": { "low": 590, "medium": 683, "high": 776 } },
+            { "weightKg": 80, "grams": { "low": 652, "medium": 755, "high": 858 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per il supporto della funzione cutanea in caso di dermatosi e perdita eccessiva di pelo; alto tenore di acido linoleico ed EPA+DHA. Uso iniziale fino a 2 mesi su indicazione veterinaria.",
+        "Le tre colonne ufficiali Royal Canin (cane sottopeso / normopeso / sovrappeso) sono usate rispettivamente per attività alta / normale / bassa: ogni valore è del produttore."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/skin-care-4013",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-mobility-support-dry",
+      "slug": "veterinary-mobility-support",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Mobility Support",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 80],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 37, "medium": 44, "high": 51 } },
+            { "weightKg": 4, "grams": { "low": 62, "medium": 74, "high": 85 } },
+            { "weightKg": 6, "grams": { "low": 84, "medium": 100, "high": 116 } },
+            { "weightKg": 8, "grams": { "low": 105, "medium": 124, "high": 144 } },
+            { "weightKg": 15, "grams": { "low": 167, "medium": 199, "high": 230 } },
+            { "weightKg": 20, "grams": { "low": 208, "medium": 247, "high": 286 } },
+            { "weightKg": 25, "grams": { "low": 246, "medium": 292, "high": 338 } },
+            { "weightKg": 30, "grams": { "low": 282, "medium": 334, "high": 387 } },
+            { "weightKg": 35, "grams": { "low": 316, "medium": 375, "high": 435 } },
+            { "weightKg": 40, "grams": { "low": 349, "medium": 415, "high": 481 } },
+            { "weightKg": 45, "grams": { "low": 382, "medium": 453, "high": 525 } },
+            { "weightKg": 50, "grams": { "low": 413, "medium": 491, "high": 568 } },
+            { "weightKg": 55, "grams": { "low": 444, "medium": 527, "high": 610 } },
+            { "weightKg": 60, "grams": { "low": 474, "medium": 562, "high": 651 } },
+            { "weightKg": 70, "grams": { "low": 532, "medium": 631, "high": 732 } },
+            { "weightKg": 80, "grams": { "low": 588, "medium": 698, "high": 808 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento completo per il supporto della funzione articolare (estratto di cozza verde neozelandese, omega-3, apporto calorico moderato). Uso su indicazione veterinaria.",
+        "La riga 10 kg della tabella del produttore ripete i valori Normal/Overweight della riga 8 kg (refuso evidente nella fonte) ed è stata omessa: per 8–15 kg la dose è interpolata tra le righe adiacenti.",
+        "Le tre colonne ufficiali Royal Canin (cane sottopeso / normopeso / sovrappeso) sono usate rispettivamente per attività alta / normale / bassa: ogni valore è del produttore."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/mobility-support-1829",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-sensitivity-control-dry",
+      "slug": "veterinary-sensitivity-control",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Sensitivity Control",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 80],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 48, "medium": 56, "high": 64 } },
+            { "weightKg": 4, "grams": { "low": 81, "medium": 94, "high": 107 } },
+            { "weightKg": 6, "grams": { "low": 110, "medium": 127, "high": 145 } },
+            { "weightKg": 8, "grams": { "low": 137, "medium": 158, "high": 180 } },
+            { "weightKg": 10, "grams": { "low": 161, "medium": 187, "high": 212 } },
+            { "weightKg": 15, "grams": { "low": 219, "medium": 253, "high": 288 } },
+            { "weightKg": 20, "grams": { "low": 271, "medium": 314, "high": 357 } },
+            { "weightKg": 25, "grams": { "low": 321, "medium": 372, "high": 422 } },
+            { "weightKg": 30, "grams": { "low": 368, "medium": 426, "high": 484 } },
+            { "weightKg": 35, "grams": { "low": 413, "medium": 478, "high": 543 } },
+            { "weightKg": 40, "grams": { "low": 456, "medium": 529, "high": 601 } },
+            { "weightKg": 45, "grams": { "low": 499, "medium": 577, "high": 656 } },
+            { "weightKg": 50, "grams": { "low": 540, "medium": 625, "high": 710 } },
+            { "weightKg": 55, "grams": { "low": 580, "medium": 671, "high": 763 } },
+            { "weightKg": 60, "grams": { "low": 619, "medium": 716, "high": 814 } },
+            { "weightKg": 70, "grams": { "low": 695, "medium": 804, "high": 914 } },
+            { "weightKg": 80, "grams": { "low": 768, "medium": 889, "high": 1010 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per la riduzione di intolleranze a ingredienti e nutrienti (fonti proteiche e di carboidrati selezionate: anatra e tapioca). Uso 3–8 settimane su indicazione veterinaria; se i segni scompaiono può essere usato indefinitamente.",
+        "Le tre colonne ufficiali Royal Canin (cane sottopeso / normopeso / sovrappeso) sono usate rispettivamente per attività alta / normale / bassa: ogni valore è del produttore."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/sensitivity-control-3922",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-renal-select-dry",
+      "slug": "veterinary-renal-select",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Renal Select",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 80],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 40, "medium": 47, "high": 53 } },
+            { "weightKg": 4, "grams": { "low": 68, "medium": 78, "high": 89 } },
+            { "weightKg": 6, "grams": { "low": 92, "medium": 106, "high": 121 } },
+            { "weightKg": 8, "grams": { "low": 114, "medium": 132, "high": 150 } },
+            { "weightKg": 10, "grams": { "low": 135, "medium": 156, "high": 177 } },
+            { "weightKg": 15, "grams": { "low": 183, "medium": 212, "high": 240 } },
+            { "weightKg": 20, "grams": { "low": 227, "medium": 262, "high": 298 } },
+            { "weightKg": 25, "grams": { "low": 268, "medium": 310, "high": 353 } },
+            { "weightKg": 30, "grams": { "low": 307, "medium": 356, "high": 404 } },
+            { "weightKg": 35, "grams": { "low": 345, "medium": 399, "high": 454 } },
+            { "weightKg": 40, "grams": { "low": 381, "medium": 441, "high": 502 } },
+            { "weightKg": 45, "grams": { "low": 416, "medium": 482, "high": 548 } },
+            { "weightKg": 50, "grams": { "low": 451, "medium": 522, "high": 593 } },
+            { "weightKg": 55, "grams": { "low": 484, "medium": 560, "high": 637 } },
+            { "weightKg": 60, "grams": { "low": 517, "medium": 598, "high": 680 } },
+            { "weightKg": 65, "grams": { "low": 549, "medium": 635, "high": 722 } },
+            { "weightKg": 70, "grams": { "low": 580, "medium": 672, "high": 763 } },
+            { "weightKg": 75, "grams": { "low": 611, "medium": 707, "high": 804 } },
+            { "weightKg": 80, "grams": { "low": 641, "medium": 742, "high": 844 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per il supporto della funzione renale in caso di insufficienza renale cronica; proteine di alta qualità e fosforo ridotto. Uso iniziale fino a 6 mesi su indicazione veterinaria.",
+        "Le tre colonne ufficiali Royal Canin (cane sottopeso / normopeso / sovrappeso) sono usate rispettivamente per attività alta / normale / bassa: ogni valore è del produttore."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/renal-select-4162",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-renal-special-dry",
+      "slug": "veterinary-renal-special",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Renal Special",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 80],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 41, "medium": 48, "high": 54 } },
+            { "weightKg": 4, "grams": { "low": 69, "medium": 80, "high": 91 } },
+            { "weightKg": 6, "grams": { "low": 94, "medium": 109, "high": 124 } },
+            { "weightKg": 8, "grams": { "low": 117, "medium": 135, "high": 154 } },
+            { "weightKg": 10, "grams": { "low": 138, "medium": 160, "high": 182 } },
+            { "weightKg": 15, "grams": { "low": 187, "medium": 217, "high": 246 } },
+            { "weightKg": 20, "grams": { "low": 232, "medium": 269, "high": 305 } },
+            { "weightKg": 25, "grams": { "low": 274, "medium": 318, "high": 361 } },
+            { "weightKg": 30, "grams": { "low": 315, "medium": 364, "high": 414 } },
+            { "weightKg": 35, "grams": { "low": 353, "medium": 409, "high": 465 } },
+            { "weightKg": 40, "grams": { "low": 390, "medium": 452, "high": 514 } },
+            { "weightKg": 45, "grams": { "low": 427, "medium": 494, "high": 561 } },
+            { "weightKg": 50, "grams": { "low": 462, "medium": 534, "high": 607 } },
+            { "weightKg": 55, "grams": { "low": 496, "medium": 574, "high": 652 } },
+            { "weightKg": 60, "grams": { "low": 529, "medium": 613, "high": 696 } },
+            { "weightKg": 70, "grams": { "low": 594, "medium": 688, "high": 782 } },
+            { "weightKg": 80, "grams": { "low": 657, "medium": 760, "high": 864 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per il supporto della funzione renale in caso di insufficienza renale cronica; proteine di alta qualità e fosforo ridotto. Uso iniziale fino a 6 mesi su indicazione veterinaria.",
+        "Le tre colonne ufficiali Royal Canin (cane sottopeso / normopeso / sovrappeso) sono usate rispettivamente per attività alta / normale / bassa: ogni valore è del produttore."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/renal-special-4161",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-urinary-so-moderate-calorie-dry",
+      "slug": "veterinary-urinary-so-moderate-calorie",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Urinary S/O Moderate Calorie",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 70],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "single",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": 49 },
+            { "weightKg": 4, "grams": 82 },
+            { "weightKg": 6, "grams": 111 },
+            { "weightKg": 8, "grams": 137 },
+            { "weightKg": 10, "grams": 163 },
+            { "weightKg": 15, "grams": 220 },
+            { "weightKg": 20, "grams": 273 },
+            { "weightKg": 25, "grams": 323 },
+            { "weightKg": 30, "grams": 370 },
+            { "weightKg": 35, "grams": 416 },
+            { "weightKg": 40, "grams": 460 },
+            { "weightKg": 45, "grams": 502 },
+            { "weightKg": 50, "grams": 543 },
+            { "weightKg": 55, "grams": 584 },
+            { "weightKg": 60, "grams": 623 },
+            { "weightKg": 65, "grams": 662 },
+            { "weightKg": 70, "grams": 699 }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per la dissoluzione degli struviti e la riduzione delle recidive, con apporto calorico moderato. Uso su indicazione veterinaria (5–12 settimane per dissoluzione, fino a 6 mesi per prevenzione recidive).",
+        "Il produttore pubblica solo due colonne (Normal e Overweight, senza Thin): qui è usata la colonna Normal. Per cani in sovrappeso il produttore indica valori più bassi: vedi fonte."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/urinary-so-moderate-calorie-3800",
+      "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-gastrointestinal-moderate-calorie-dry",
+      "slug": "veterinary-gastrointestinal-moderate-calorie",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Gastrointestinal Moderate Calorie",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 80],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "single",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": 44 },
+            { "weightKg": 4, "grams": 74 },
+            { "weightKg": 6, "grams": 101 },
+            { "weightKg": 8, "grams": 125 },
+            { "weightKg": 10, "grams": 148 },
+            { "weightKg": 15, "grams": 200 },
+            { "weightKg": 20, "grams": 249 },
+            { "weightKg": 25, "grams": 294 },
+            { "weightKg": 30, "grams": 337 },
+            { "weightKg": 35, "grams": 378 },
+            { "weightKg": 40, "grams": 418 },
+            { "weightKg": 45, "grams": 457 },
+            { "weightKg": 50, "grams": 494 },
+            { "weightKg": 55, "grams": 531 },
+            { "weightKg": 60, "grams": 567 },
+            { "weightKg": 70, "grams": 636 },
+            { "weightKg": 80, "grams": 703 }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per la riduzione dei disturbi acuti dell'assorbimento intestinale e compensazione della maldigestione; calorie moderate. Uso su indicazione veterinaria (1–2 settimane per diarrea acuta; 3–12 settimane per maldigestione, a vita in caso di insufficienza pancreatica cronica).",
+        "Il produttore pubblica solo due colonne (Normal e Overweight, senza Thin): qui è usata la colonna Normal. Per cani in sovrappeso il produttore indica valori più bassi: vedi fonte."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/gastrointestinal-moderate-calorie-3958",
+      "sourceDate": "2026-07-11"
     }
   ]
 }
