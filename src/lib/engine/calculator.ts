@@ -148,6 +148,11 @@ const round = (g: number) => Math.round(g);
 
 export function calculateRation(product: Product, input: CalcInput): CalcResult {
   const notes: string[] = [];
+  if (product.vet) {
+    notes.push(
+      "ALIMENTO VETERINARIO: va usato solo su indicazione del veterinario, che deve confermare anche la dose e la durata della somministrazione.",
+    );
+  }
   const { table, notes: tableNotes } = pickTable(product, input.lifeStage);
   notes.push(...tableNotes);
 

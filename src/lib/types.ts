@@ -54,6 +54,8 @@ export interface Product {
   targetWeightKg?: [number, number];
   kcalPerKg?: number;
   tables: FeedingTable[];
+  /** Alimento veterinario: la scheda risultato antepone un avviso dedicato. */
+  vet?: boolean;
   notes?: string[];
   sourceUrl?: string;
   /** Data di acquisizione del dato dal sito del produttore. */

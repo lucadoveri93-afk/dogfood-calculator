@@ -42,6 +42,7 @@ const product = z.object({
   targetWeightKg: z.tuple([positive, positive]).optional(),
   kcalPerKg: positive.optional(),
   tables: z.array(table).min(1),
+  vet: z.boolean().optional(),
   notes: z.array(z.string()).optional(),
   sourceUrl: z.string().url().optional(),
   sourceDate: z.string().optional(),

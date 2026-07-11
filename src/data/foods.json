@@ -571,6 +571,47 @@
       ],
       "sourceUrl": "https://www.royalcanin.com/mt/dogs/products/retail-products/giant-puppy-3030",
       "sourceDate": "2026-07-11"
+    },
+    {
+      "id": "rc-vd-gastrointestinal-dry",
+      "slug": "veterinary-gastrointestinal",
+      "brandSlug": "royal-canin",
+      "name": "Veterinary Gastrointestinal",
+      "line": "Veterinary Diet",
+      "lifeStages": ["adult"],
+      "targetWeightKg": [2, 80],
+      "vet": true,
+      "tables": [
+        {
+          "kind": "activity",
+          "lifeStage": "adult",
+          "rows": [
+            { "weightKg": 2, "grams": { "low": 39, "medium": 45, "high": 51 } },
+            { "weightKg": 4, "grams": { "low": 65, "medium": 76, "high": 86 } },
+            { "weightKg": 6, "grams": { "low": 88, "medium": 102, "high": 116 } },
+            { "weightKg": 8, "grams": { "low": 110, "medium": 127, "high": 144 } },
+            { "weightKg": 10, "grams": { "low": 130, "medium": 150, "high": 171 } },
+            { "weightKg": 15, "grams": { "low": 176, "medium": 203, "high": 231 } },
+            { "weightKg": 20, "grams": { "low": 218, "medium": 253, "high": 287 } },
+            { "weightKg": 25, "grams": { "low": 258, "medium": 299, "high": 339 } },
+            { "weightKg": 30, "grams": { "low": 296, "medium": 342, "high": 389 } },
+            { "weightKg": 35, "grams": { "low": 332, "medium": 384, "high": 437 } },
+            { "weightKg": 40, "grams": { "low": 367, "medium": 425, "high": 483 } },
+            { "weightKg": 45, "grams": { "low": 401, "medium": 464, "high": 527 } },
+            { "weightKg": 50, "grams": { "low": 434, "medium": 502, "high": 570 } },
+            { "weightKg": 55, "grams": { "low": 466, "medium": 539, "high": 613 } },
+            { "weightKg": 60, "grams": { "low": 497, "medium": 576, "high": 654 } },
+            { "weightKg": 70, "grams": { "low": 558, "medium": 646, "high": 734 } },
+            { "weightKg": 80, "grams": { "low": 617, "medium": 714, "high": 812 } }
+          ]
+        }
+      ],
+      "notes": [
+        "Alimento dietetico completo per disturbi dell'assorbimento intestinale acuto; uso tipico 1–2 settimane su indicazione veterinaria.",
+        "Le tre colonne ufficiali Royal Canin (cane sottopeso / normopeso / sovrappeso) sono usate rispettivamente per attività alta / normale / bassa: ogni valore è del produttore."
+      ],
+      "sourceUrl": "https://www.royalcanin.com/ie/dogs/products/vet-products/gastrointestinal-3911",
+      "sourceDate": "2026-07-11"
     }
   ]
 }

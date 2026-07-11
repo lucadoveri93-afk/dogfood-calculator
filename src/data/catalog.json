@@ -32,7 +32,7 @@
     { "id": "rc-bhn-cocker-spaniel", "brandSlug": "royal-canin", "group": "Breed Health Nutrition", "name": "Cocker Spaniel", "category": "razza", "needsFeedingTable": true },
     { "id": "rc-bhn-jack-russell-terrier", "brandSlug": "royal-canin", "group": "Breed Health Nutrition", "name": "Jack Russell Terrier", "category": "razza", "needsFeedingTable": true },
     { "id": "rc-bhn-rottweiler", "brandSlug": "royal-canin", "group": "Breed Health Nutrition", "name": "Rottweiler", "category": "razza", "needsFeedingTable": true },
-    { "id": "rc-vd-gastrointestinal", "brandSlug": "royal-canin", "group": "Veterinary Diet", "name": "Gastrointestinal", "category": "veterinaria", "needsFeedingTable": true, "vet": true },
+    { "id": "rc-vd-gastrointestinal", "brandSlug": "royal-canin", "group": "Veterinary Diet", "name": "Gastrointestinal", "category": "veterinaria", "needsFeedingTable": true, "vet": true, "productIds": ["rc-vd-gastrointestinal-dry"] },
     { "id": "rc-vd-gastrointestinal-low-fat", "brandSlug": "royal-canin", "group": "Veterinary Diet", "name": "Gastrointestinal Low Fat", "category": "veterinaria", "needsFeedingTable": true, "vet": true },
     { "id": "rc-vd-gastrointestinal-puppy", "brandSlug": "royal-canin", "group": "Veterinary Diet", "name": "Gastrointestinal Puppy", "category": "veterinaria", "needsFeedingTable": true, "vet": true },
     { "id": "rc-vd-gastrointestinal-fibre-response", "brandSlug": "royal-canin", "group": "Veterinary Diet", "name": "Gastrointestinal Fibre Response", "category": "veterinaria", "needsFeedingTable": true, "vet": true },
