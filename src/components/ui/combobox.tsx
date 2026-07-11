@@ -18,7 +18,7 @@ interface ComboboxProps {
   /** Filtro fuzzy esterno (Fuse.js); riceve la query e restituisce i value ordinati. */
   filter: (query: string) => string[];
   placeholder: string;
-  emptyMessage?: string;
+  emptyMessage?: React.ReactNode;
   disabled?: boolean;
 }
 

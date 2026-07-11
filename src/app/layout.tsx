@@ -39,6 +39,12 @@ export default function RootLayout({
               </Link>
               <div className="flex items-center gap-1">
                 <Link
+                  href="/catalogo"
+                  className="rounded-full px-3 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+                >
+                  Catalogo
+                </Link>
+                <Link
                   href="/confronto"
                   className="rounded-full px-3 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
                 >

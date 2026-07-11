@@ -268,13 +268,24 @@ export function Calculator({ initialBrandSlug, initialProductId }: CalculatorPro
 
         {phase === "form" && (
           <motion.section key="form" {...fade} className="py-10 sm:py-16">
-            <button
-              type="button"
-              onClick={() => setPhase("hero")}
-              className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-            >
-              <ArrowLeft className="h-4 w-4" /> Indietro
-            </button>
+            {initialBrandSlug ? (
+              // Sulle pagine prodotto "Indietro" torna alla pagina della
+              // marca: la hero fuori contesto era un vicolo cieco.
+              <a
+                href={`/${initialBrandSlug}`}
+                className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
+              >
+                <ArrowLeft className="h-4 w-4" /> Tutte le linee della marca
+              </a>
+            ) : (
+              <button
+                type="button"
+                onClick={() => setPhase("hero")}
+                className="mb-6 inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
+              >
+                <ArrowLeft className="h-4 w-4" /> Indietro
+              </button>
+            )}
 
             <HistoryStrip onSelect={onSelectHistory} />
 
@@ -317,7 +328,18 @@ export function Calculator({ initialBrandSlug, initialProductId }: CalculatorPro
                           brandSlug ? "Cerca il prodotto" : "Prima scegli la marca"
                         }
                         disabled={!brandSlug}
-                        emptyMessage="Nessun prodotto per questa ricerca"
+                        emptyMessage={
+                          <>
+                            Nessun prodotto calcolabile per questa ricerca.{" "}
+                            <a
+                              href={brandSlug ? `/${brandSlug}` : "/catalogo"}
+                              className="font-medium text-primary underline"
+                            >
+                              Vedi tutte le linee della marca
+                            </a>
+                            {" "}— quelle senza ✓ sono in lavorazione.
+                          </>
+                        }
                       />
                     )}
                   />

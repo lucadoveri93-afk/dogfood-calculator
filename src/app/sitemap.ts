@@ -7,6 +7,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const db = dataProvider.getDatabase();
   return [
     { url: BASE, changeFrequency: "weekly", priority: 1 },
+    { url: `${BASE}/catalogo`, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE}/confronto`, changeFrequency: "monthly", priority: 0.7 },
     ...db.brands.map((b) => ({
       url: `${BASE}/${b.slug}`,
       changeFrequency: "weekly" as const,
