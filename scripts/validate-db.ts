@@ -56,6 +56,26 @@ const database = z.object({
 
 const parsed = database.parse(db);
 
+// --- Catalogo linee (anagrafica) ---
+import catalog from "../src/data/catalog.json";
+
+const line = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  brandSlug: z.string(),
+  group: z.string().min(1),
+  name: z.string().min(1),
+  category: z.string().min(1),
+  needsFeedingTable: z.boolean(),
+  vet: z.boolean().optional(),
+  productIds: z.array(z.string()).optional(),
+});
+const catalogSchema = z.object({
+  version: z.number().int().positive(),
+  updatedAt: z.string(),
+  lines: z.array(line).min(1),
+});
+const parsedCatalog = catalogSchema.parse(catalog);
+
 // Coerenza referenziale: ogni prodotto punta a una marca esistente,
 // slug unici per marca.
 const brandSlugs = new Set(parsed.brands.map((b) => b.slug));
@@ -69,6 +89,26 @@ for (const p of parsed.products) {
   seen.add(key);
 }
 
+// Coerenza catalogo: brand esistenti, id linea unici, productIds validi.
+const productIds = new Set(parsed.products.map((p) => p.id));
+const lineIds = new Set<string>();
+for (const l of parsedCatalog.lines) {
+  if (!brandSlugs.has(l.brandSlug)) {
+    throw new Error(`Linea ${l.id}: marca inesistente '${l.brandSlug}'`);
+  }
+  if (lineIds.has(l.id)) throw new Error(`Linea duplicata: ${l.id}`);
+  lineIds.add(l.id);
+  for (const pid of l.productIds ?? []) {
+    if (!productIds.has(pid)) {
+      throw new Error(`Linea ${l.id}: productId inesistente '${pid}'`);
+    }
+  }
+}
+
+const covered = parsedCatalog.lines.filter(
+  (l) => (l.productIds?.length ?? 0) > 0,
+).length;
 console.log(
-  `DB valido: ${parsed.brands.length} marche, ${parsed.products.length} prodotti.`,
+  `DB valido: ${parsed.brands.length} marche, ${parsed.products.length} prodotti, ` +
+    `${parsedCatalog.lines.length} linee a catalogo (${covered} con tabella).`,
 );

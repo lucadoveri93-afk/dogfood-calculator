@@ -1,5 +1,6 @@
-import type { Brand, FoodDatabase, Product } from "@/lib/types";
+import type { Brand, FoodDatabase, Product, ProductLine } from "@/lib/types";
 import db from "@/data/foods.json";
+import catalog from "@/data/catalog.json";
 
 /**
  * Layer di accesso ai dati, separato e sostituibile.
@@ -18,6 +19,8 @@ export interface DataProvider {
   getProductsByBrand(brandSlug: string): Product[];
   getProduct(brandSlug: string, productSlug: string): Product | undefined;
   getProductById(id: string): Product | undefined;
+  /** Catalogo linee del brand (anagrafica, anche senza tabelle). */
+  getLinesByBrand(brandSlug: string): ProductLine[];
 }
 
 class JsonDataProvider implements DataProvider {
@@ -51,6 +54,12 @@ class JsonDataProvider implements DataProvider {
 
   getProductById(id: string): Product | undefined {
     return this.db.products.find((p) => p.id === id);
+  }
+
+  getLinesByBrand(brandSlug: string): ProductLine[] {
+    return (catalog.lines as ProductLine[]).filter(
+      (l) => l.brandSlug === brandSlug,
+    );
   }
 }
 

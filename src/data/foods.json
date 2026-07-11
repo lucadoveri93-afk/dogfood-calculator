@@ -2,12 +2,12 @@
   "version": 2,
   "updatedAt": "2026-07-11",
   "brands": [
-    { "slug": "royal-canin", "name": "Royal Canin", "description": "Nutrizione su misura per taglia, età e razza." },
-    { "slug": "monge", "name": "Monge", "description": "Superpremium Made in Italy." },
-    { "slug": "farmina", "name": "Farmina", "description": "N&D — The Nutrition System for Carnivores." },
-    { "slug": "natural-trainer", "name": "Natural Trainer", "description": "Ricette con ingredienti naturali, Nova Foods." },
-    { "slug": "purina-pro-plan", "name": "Purina Pro Plan", "description": "Nutrizione avanzata con tecnologie OPTI." },
-    { "slug": "hills", "name": "Hill's", "description": "Science Plan — nutrizione basata sulla scienza." }
+    { "slug": "royal-canin", "name": "Royal Canin", "description": "Nutrizione su misura per taglia, età e razza.", "country": "Francia" },
+    { "slug": "monge", "name": "Monge", "description": "Superpremium Made in Italy.", "country": "Italia" },
+    { "slug": "farmina", "name": "Farmina", "description": "N&D — The Nutrition System for Carnivores.", "country": "Italia" },
+    { "slug": "natural-trainer", "name": "Natural Trainer", "description": "Ricette con ingredienti naturali, Nova Foods.", "country": "Italia" },
+    { "slug": "purina-pro-plan", "name": "Purina Pro Plan", "description": "Nutrizione avanzata con tecnologie OPTI.", "country": "USA" },
+    { "slug": "hills", "name": "Hill's", "description": "Science Plan — nutrizione basata sulla scienza.", "country": "USA" }
   ],
   "products": [
     {

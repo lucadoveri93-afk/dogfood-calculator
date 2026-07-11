@@ -64,6 +64,29 @@ export interface Brand {
   slug: string;
   name: string;
   description?: string;
+  /** Paese d'origine del brand (catalogo). */
+  country?: string;
+}
+
+/**
+ * Linea di prodotto a catalogo (es. "Size Health Nutrition → Mini Puppy").
+ * È anagrafica: una linea diventa calcolabile solo quando uno o più
+ * Product con tabella ufficiale la referenziano tramite productIds.
+ */
+export interface ProductLine {
+  id: string;
+  brandSlug: string;
+  /** Gruppo/linea commerciale (es. "Size Health Nutrition", "Vet Life"). */
+  group: string;
+  name: string;
+  /** Categoria della linea (mantenimento, per razza, veterinaria, ...). */
+  category: string;
+  /** true se il calcolo richiede la tabella ufficiale del produttore. */
+  needsFeedingTable: boolean;
+  /** Linea veterinaria: dosaggio solo su indicazione del veterinario. */
+  vet?: boolean;
+  /** Prodotti già presenti nel DB con tabella ufficiale per questa linea. */
+  productIds?: string[];
 }
 
 export interface FoodDatabase {
@@ -71,6 +94,8 @@ export interface FoodDatabase {
   updatedAt: string;
   brands: Brand[];
   products: Product[];
+  /** Catalogo linee (anagrafica); opzionale, vive in catalog.json. */
+  lines?: ProductLine[];
 }
 
 /** Input del calcolo, prodotto dal form. */

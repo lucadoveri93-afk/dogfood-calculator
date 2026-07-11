@@ -54,6 +54,63 @@ export default function BrandPage({ params }: { params: Params }) {
           </Link>
         ))}
       </div>
+
+      <LineCatalog brandSlug={brand.slug} />
     </div>
+  );
+}
+
+/** Catalogo linee del brand: le voci senza tabella sono segnate "in arrivo". */
+function LineCatalog({ brandSlug }: { brandSlug: string }) {
+  const lines = dataProvider.getLinesByBrand(brandSlug);
+  if (lines.length === 0) return null;
+
+  const groups = new Map<string, typeof lines>();
+  for (const line of lines) {
+    const list = groups.get(line.group) ?? [];
+    list.push(line);
+    groups.set(line.group, list);
+  }
+
+  return (
+    <section className="mt-12">
+      <h2 className="text-lg font-semibold">Tutte le linee {""}</h2>
+      <p className="mt-1 text-sm text-muted-foreground">
+        Il calcolo è disponibile per le linee con tabella ufficiale già
+        acquisita; le altre sono in lavorazione.
+      </p>
+      <div className="mt-5 space-y-6">
+        {Array.from(groups.entries()).map(([group, items]) => (
+          <div key={group}>
+            <h3 className="mb-2 text-sm font-medium text-muted-foreground">
+              {group}
+              {items[0]?.vet && " · uso veterinario"}
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {items.map((line) => {
+                const available = (line.productIds?.length ?? 0) > 0;
+                return (
+                  <span
+                    key={line.id}
+                    className={
+                      available
+                        ? "rounded-full bg-primary/10 px-3 py-1.5 text-xs font-medium text-primary"
+                        : "rounded-full border px-3 py-1.5 text-xs text-muted-foreground"
+                    }
+                  >
+                    {line.name}
+                    {available ? " ✓" : ""}
+                  </span>
+                );
+              })}
+            </div>
+          </div>
+        ))}
+      </div>
+      <p className="mt-4 text-xs text-muted-foreground">
+        Le linee veterinarie richiedono il dosaggio indicato dal veterinario:
+        verranno aggiunte al calcolatore con avvertenze dedicate.
+      </p>
+    </section>
   );
 }
