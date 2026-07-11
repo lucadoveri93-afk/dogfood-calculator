@@ -89,6 +89,8 @@ export interface ProductLine {
   vet?: boolean;
   /** Prodotti già presenti nel DB con tabella ufficiale per questa linea. */
   productIds?: string[];
+  /** true se verificato che il produttore NON pubblica una tabella per peso. */
+  tableUnavailable?: boolean;
 }
 
 export interface FoodDatabase {

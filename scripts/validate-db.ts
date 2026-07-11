@@ -69,6 +69,7 @@ const line = z.object({
   needsFeedingTable: z.boolean(),
   vet: z.boolean().optional(),
   productIds: z.array(z.string()).optional(),
+  tableUnavailable: z.boolean().optional(),
 });
 const catalogSchema = z.object({
   version: z.number().int().positive(),
