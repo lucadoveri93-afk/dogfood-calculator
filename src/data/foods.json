@@ -7,7 +7,16 @@
     { "slug": "farmina", "name": "Farmina", "description": "N&D — The Nutrition System for Carnivores.", "country": "Italia" },
     { "slug": "natural-trainer", "name": "Natural Trainer", "description": "Ricette con ingredienti naturali, Nova Foods.", "country": "Italia" },
     { "slug": "purina-pro-plan", "name": "Purina Pro Plan", "description": "Nutrizione avanzata con tecnologie OPTI.", "country": "USA" },
-    { "slug": "hills", "name": "Hill's", "description": "Science Plan — nutrizione basata sulla scienza.", "country": "USA" }
+    { "slug": "hills", "name": "Hill's", "description": "Science Plan — nutrizione basata sulla scienza.", "country": "USA" },
+    { "slug": "acana", "name": "Acana", "description": "Biologically Appropriate, Champion Petfoods.", "country": "Canada" },
+    { "slug": "orijen", "name": "Orijen", "description": "Alta percentuale di carne e pesce freschi.", "country": "Canada" },
+    { "slug": "taste-of-the-wild", "name": "Taste of the Wild", "description": "Ricette ispirate alla dieta ancestrale.", "country": "USA" },
+    { "slug": "carnilove", "name": "Carnilove", "description": "Carne fresca e proteine selvatiche, senza cereali.", "country": "Repubblica Ceca" },
+    { "slug": "prolife", "name": "Prolife", "description": "Nutrizione made in Italy, Zoodiaco.", "country": "Italia" },
+    { "slug": "exclusion", "name": "Exclusion", "description": "Monoproteico e dieta mediterranea.", "country": "Italia" },
+    { "slug": "oasy", "name": "Oasy", "description": "One Animal Protein e ricette naturali.", "country": "Italia" },
+    { "slug": "schesir", "name": "Schesir", "description": "Ingredienti naturali, Agras Pet Foods.", "country": "Italia" },
+    { "slug": "almo-nature", "name": "Almo Nature", "description": "Holistic e HFC, ingredienti naturali.", "country": "Italia" }
   ],
   "products": [
     {
