@@ -16,7 +16,20 @@
     { "slug": "exclusion", "name": "Exclusion", "description": "Monoproteico e dieta mediterranea.", "country": "Italia" },
     { "slug": "oasy", "name": "Oasy", "description": "One Animal Protein e ricette naturali.", "country": "Italia" },
     { "slug": "schesir", "name": "Schesir", "description": "Ingredienti naturali, Agras Pet Foods.", "country": "Italia" },
-    { "slug": "almo-nature", "name": "Almo Nature", "description": "Holistic e HFC, ingredienti naturali.", "country": "Italia" }
+    { "slug": "almo-nature", "name": "Almo Nature", "description": "Holistic e HFC, ingredienti naturali.", "country": "Italia" },
+    { "slug": "brit", "name": "Brit", "description": "Super premium ceco, VAFO Praha.", "country": "Repubblica Ceca" },
+    { "slug": "ownat", "name": "Ownat", "description": "Super premium spagnolo con ingredienti freschi.", "country": "Spagna" },
+    { "slug": "happy-dog", "name": "Happy Dog", "description": "Ricette regionali tedesche.", "country": "Germania" },
+    { "slug": "eukanuba", "name": "Eukanuba", "description": "Nutrizione per performance e taglie.", "country": "USA" },
+    { "slug": "advance", "name": "Advance", "description": "Affinity Petcare, nutrizione preventiva.", "country": "Spagna" },
+    { "slug": "forza10", "name": "Forza10", "description": "Nutraceutica italiana, pesce di mare aperto.", "country": "Italia" },
+    { "slug": "specific", "name": "Specific", "description": "Diete veterinarie Dechra.", "country": "Danimarca" },
+    { "slug": "platinum", "name": "Platinum", "description": "Premium tedesco con carne fresca.", "country": "Germania" },
+    { "slug": "josera", "name": "Josera", "description": "Qualità tedesca, ricette naturali.", "country": "Germania" },
+    { "slug": "belcando", "name": "Belcando", "description": "Bewital Petfood, premium tedesco.", "country": "Germania" },
+    { "slug": "canagan", "name": "Canagan", "description": "Grain free britannico.", "country": "Regno Unito" },
+    { "slug": "wolf-of-wilderness", "name": "Wolf of Wilderness", "description": "Grain free ispirato alla dieta del lupo.", "country": "Germania" },
+    { "slug": "edgard-cooper", "name": "Edgard & Cooper", "description": "Naturale con carne e pesce freschi.", "country": "Belgio" }
   ],
   "products": [
     {
