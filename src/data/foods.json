@@ -29,7 +29,21 @@
     { "slug": "belcando", "name": "Belcando", "description": "Bewital Petfood, premium tedesco.", "country": "Germania" },
     { "slug": "canagan", "name": "Canagan", "description": "Grain free britannico.", "country": "Regno Unito" },
     { "slug": "wolf-of-wilderness", "name": "Wolf of Wilderness", "description": "Grain free ispirato alla dieta del lupo.", "country": "Germania" },
-    { "slug": "edgard-cooper", "name": "Edgard & Cooper", "description": "Naturale con carne e pesce freschi.", "country": "Belgio" }
+    { "slug": "edgard-cooper", "name": "Edgard & Cooper", "description": "Naturale con carne e pesce freschi.", "country": "Belgio" },
+    { "slug": "marpet", "name": "Marpet", "description": "Pet food italiano, linee Simpsons e Professional.", "country": "Italia" },
+    { "slug": "nbf-lanes", "name": "NBF Lanes", "description": "Supporto nutrizionale e funzionale.", "country": "Italia" },
+    { "slug": "morando", "name": "Morando", "description": "Migliorcane e linee professionali.", "country": "Italia" },
+    { "slug": "gemon", "name": "Gemon", "description": "High premium del gruppo Monge.", "country": "Italia" },
+    { "slug": "special-dog", "name": "Special Dog", "description": "Excellence e mantenimento, gruppo Monge.", "country": "Italia" },
+    { "slug": "yarrah", "name": "Yarrah", "description": "Pet food biologico certificato.", "country": "Paesi Bassi" },
+    { "slug": "lilys-kitchen", "name": "Lily's Kitchen", "description": "Ricette naturali britanniche.", "country": "Regno Unito" },
+    { "slug": "naturea", "name": "Naturea", "description": "Premium naturale portoghese.", "country": "Portogallo" },
+    { "slug": "gosbi", "name": "Gosbi", "description": "Super premium spagnolo.", "country": "Spagna" },
+    { "slug": "alleva", "name": "Alleva", "description": "Holistic e natural, Diusapet.", "country": "Italia" },
+    { "slug": "arion", "name": "Arion", "description": "Premium e linee sportive.", "country": "Spagna" },
+    { "slug": "calibra", "name": "Calibra", "description": "Premium e diete veterinarie ceche.", "country": "Repubblica Ceca" },
+    { "slug": "opti-life", "name": "Opti Life", "description": "Super premium Versele-Laga.", "country": "Belgio" },
+    { "slug": "bewi-dog", "name": "Bewi Dog", "description": "Mantenimento tedesco, Bewital.", "country": "Germania" }
   ],
   "products": [
     {
